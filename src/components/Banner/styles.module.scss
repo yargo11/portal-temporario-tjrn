@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: row;
 
+    padding: 0px 10px;
+
     @media(max-width:768px){
         background: var(--pool-300);
     }
@@ -48,3 +50,4 @@
         }
     }
 }
+

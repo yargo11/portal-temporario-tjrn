@@ -1,11 +1,14 @@
-import { DesktopMenu } from './DesktopMenu';
 import styles from './styles.module.scss';
 
-export function MainMenu() {
+interface BannerMenu {
+    title: string;
+}
+
+export default function Banner({ title }: BannerMenu) {
     return (
         <div className={styles.Container}>
             <div className={styles.Content}>
-                <DesktopMenu />
+                <h1>{title}</h1>
             </div>
         </div>
     )

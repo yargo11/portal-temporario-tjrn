@@ -3,6 +3,7 @@
     margin: auto;
     background: #f8f8f8;
     margin-top:40px;
+    padding: 10px;
     padding-bottom: 30px;
 }
 .Content {
@@ -19,6 +20,10 @@
         padding:40px 0;
     }
 
+    
+}
+
+.Links{
     ul {
         list-style: none;
 
@@ -34,15 +39,22 @@
         }
 
         li {
-            font-size: 32px;
+            font-size: 2rem;
             font-weight: 700;
-            line-height: 40px;
+            line-height: 1.5rem;
             color: #404242;
             margin-top: 40px;
+
+            transition:color, transform 0.2s;
 
             a {
                 display: flex;
                 align-items: center;
+            }
+
+            &:hover{
+                color:var(--green-600);
+                transform: translateX(5px);
             }
         }
     }

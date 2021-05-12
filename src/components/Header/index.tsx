@@ -1,5 +1,7 @@
 import styles from './styles.module.scss';
 import { FiChevronRight } from 'react-icons/fi';
+import { Button, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+// import Button from 'react-bootstrap/Button';
 
 export function Header() {
     return (
@@ -7,12 +9,12 @@ export function Header() {
             <img src="/images/logo.svg" />
             <div>
                 <ul>
-                    <a href="">
+                    <a href="http://intranet.tjrn.jus.br/">
                         <li>
                             INTRANET <FiChevronRight />
                         </li>
                     </a>
-                    <a href="">
+                    <a href="http://webmail.tjrn.jus.br/">
                         <li>
                             WEBMAIL <FiChevronRight />
                         </li>

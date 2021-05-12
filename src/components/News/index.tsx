@@ -10,89 +10,100 @@ export function News() {
                     <a href="#">Ver todas as notícias</a>
                 </span>
 
-                <div>
-
-                    <p>
+                <div className={styles.NoticiaPreview}>
+                    <a href="#">
+                        <p>
                             Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso; inscrições
                             até 21 de maio
-                    </p>
+                         </p>
                         <span>
                             10 Mai 2021
-                    </span>
+                         </span>
                         <p>
                             A Coordenação de Cursos de Formação Continuada de Servidores da Escola da Magistratura do RN
                             (Esmarn) comunica a oferta de 50 vagas para ...
-                    </p>
+                        </p>
+                    </a>
                 </div>
 
                 <div>
-                    <p>
-                        Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso; inscrições
-                        até 21 de maio
-                    </p>
-                    <span>
-                        10 Mai 2021
-                    </span>
-                    <p>
-                        A Coordenação de Cursos de Formação Continuada de Servidores da Escola da Magistratura do RN
-                        (Esmarn) comunica a oferta de 50 vagas para ...
-                    </p>
+                    <a href="#">
+                        <p>
+                            Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso; inscrições
+                            até 21 de maio
+                         </p>
+                        <span>
+                            10 Mai 2021
+                         </span>
+                        <p>
+                            A Coordenação de Cursos de Formação Continuada de Servidores da Escola da Magistratura do RN
+                            (Esmarn) comunica a oferta de 50 vagas para ...
+                        </p>
+                    </a>
                 </div>
 
                 <div>
-                    <p>
-                        Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso; inscrições
-                        até 21 de maio
-                    </p>
-                    <span>
-                        10 Mai 2021
-                    </span>
-                    <p>
-                        A Coordenação de Cursos de Formação Continuada de Servidores da Escola da Magistratura do RN
-                        (Esmarn) comunica a oferta de 50 vagas para ...
-                    </p>
+                    <a href="#">
+                        <p>
+                            Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso; inscrições
+                            até 21 de maio
+                         </p>
+                        <span>
+                            10 Mai 2021
+                         </span>
+                        <p>
+                            A Coordenação de Cursos de Formação Continuada de Servidores da Escola da Magistratura do RN
+                            (Esmarn) comunica a oferta de 50 vagas para ...
+                        </p>
+                    </a>
                 </div>
 
                 <div>
-                    <p>
-                        Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso; inscrições
-                        até 21 de maio
-                    </p>
-                    <span>
-                        10 Mai 2021
-                    </span>
-                    <p>
-                        A Coordenação de Cursos de Formação Continuada de Servidores da Escola da Magistratura do RN
-                        (Esmarn) comunica a oferta de 50 vagas para ...
-                    </p>
+                    <a href="#">
+                        <p>
+                            Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso; inscrições
+                            até 21 de maio
+                         </p>
+                        <span>
+                            10 Mai 2021
+                         </span>
+                        <p>
+                            A Coordenação de Cursos de Formação Continuada de Servidores da Escola da Magistratura do RN
+                            (Esmarn) comunica a oferta de 50 vagas para ...
+                        </p>
+                    </a>
                 </div>
 
                 <div>
-                    <p>
-                        Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso; inscrições
-                        até 21 de maio
-                    </p>
-                    <span>
-                        10 Mai 2021
-                    </span>
-                    <p>
-                        A Coordenação de Cursos de Formação Continuada de Servidores da Escola da Magistratura do RN
-                        (Esmarn) comunica a oferta de 50 vagas para ...
-                    </p>
+                    <a href="#">
+                        <p>
+                            Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso; inscrições
+                            até 21 de maio
+                         </p>
+                        <span>
+                            10 Mai 2021
+                         </span>
+                        <p>
+                            A Coordenação de Cursos de Formação Continuada de Servidores da Escola da Magistratura do RN
+                            (Esmarn) comunica a oferta de 50 vagas para ...
+                        </p>
+                    </a>
                 </div>
 
                 <div>
-                    <p>
-                        Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso; inscrições
-                        até 21 de maio
-                    </p>
-                    <span>
-                        10 Mai 2021
-                    </span>
-                    <p>
-                        A Coordenação de Cursos de Formação Continuada de Servidores da Escola da Magistratura do RN
-                        (Esmarn) comunica a oferta de 50 vagas para ...
-                    </p>
+                    <a href="#">
+                        <p>
+                            Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso; inscrições
+                            até 21 de maio
+                         </p>
+                        <span>
+                            10 Mai 2021
+                         </span>
+                        <p>
+                            A Coordenação de Cursos de Formação Continuada de Servidores da Escola da Magistratura do RN
+                            (Esmarn) comunica a oferta de 50 vagas para ...
+                        </p>
+                    </a>
                 </div>
 
             </div>

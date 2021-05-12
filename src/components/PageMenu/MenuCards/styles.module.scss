@@ -1,0 +1,49 @@
+.Cards {
+    width: 424px;
+    height: 149px;
+    background: #f8f8f8;
+
+    margin:5px;
+    padding: 24px;
+
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: translateY(-3px);
+
+        div {
+            color: var(--cyan-400);
+        }
+
+        p {
+            color: var(--cyan-400);
+        }
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #404242;
+
+        transition: color 0.2s;
+
+        h3 {
+            flex: 1;
+        }
+    }
+
+    p {
+        margin-top: 16px;
+
+        font-size: 1rem;
+        font-weight: 400;
+
+        color: #222222;
+
+        transition: color 0.2s;
+    }
+}

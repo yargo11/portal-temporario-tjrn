@@ -4,18 +4,23 @@ import styles from '../styles.module.scss';
 
 
 
-export default function institucional() {
+export default function administrativo() {
     return (
         <>
-            <Banner title="Institucional" />
+            <Banner title="Administrativo" />
             <div className={styles.CardOptions}>
                 <MenuCards
-                    title="Dirigentes"
+                    title="Licitações em andamento"
                     description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
                 />
 
                 <MenuCards
-                    title="Composição"
+                    title="Licitações concluídas"
+                    description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                />
+                
+                <MenuCards
+                    title="Edital de chamamento"
                     description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
                 />
             </div>

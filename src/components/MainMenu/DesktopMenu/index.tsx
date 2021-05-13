@@ -32,7 +32,7 @@ export function DesktopMenu() {
                     </Link>
                 </li>
                 <li>
-                    <a href="#">Administrativo
+                    <a href="/menu/administrativo">Administrativo
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Licitações em andamento</a></li>
                             <li><a href="#">Licitações concluídas</a></li>
@@ -41,7 +41,7 @@ export function DesktopMenu() {
                     </a>
                 </li>
                 <li>
-                    <a href="#">Precatórios
+                    <a href="/menu/precatorios">Precatórios
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Consulte seu processo</a></li>
                             <li><a href="#">Lista cronológica</a></li>
@@ -50,7 +50,7 @@ export function DesktopMenu() {
                     </a>
                 </li>
                 <li>
-                    <a href="#">Judicial
+                    <a href="/menu/judicial">Judicial
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Envio de Memorial</a></li>
                             <li><a href="#">Pauta de Julgamento</a></li>
@@ -75,7 +75,7 @@ export function DesktopMenu() {
                     </a>
                 </li>
                 <li>
-                    <a href="#">Planejamento Estratégico
+                    <a href="/menu/planejamentoestrategico">Planejamento Estratégico
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">GPS-JUS</a></li>
                             <li><a href="#">Justiça em Números</a></li>

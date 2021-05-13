@@ -85,7 +85,7 @@ export function DesktopMenu() {
                     </a>
                 </li>
                 <li><a href="#">Tecnologia da Informação</a></li>
-                <li><a href="#">Fale conosco</a></li>
+                <li><a href="/menu/fale-conosco">Fale conosco</a></li>
             </ul>
 
             <nav className={styles.Mobile}>

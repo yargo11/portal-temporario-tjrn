@@ -6,7 +6,7 @@ import { Button, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-boots
 export function Header() {
     return (
         <div className={styles.Container}>
-            <img src="/images/logo.svg" />
+            <a href="/"><img src="/images/logo.svg" /></a>
             <div>
                 <ul>
                     <a href="http://intranet.tjrn.jus.br/">

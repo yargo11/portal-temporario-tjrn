@@ -17,6 +17,7 @@ export default function judicial() {
                 <MenuCards
                     title="Pauta de Julgamento"
                     description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                    link="http://transparencia.tjrn.jus.br/index.php/orgaos-colegiados/pautas-julgamento-menu"
                 />
 
                 <MenuCards
@@ -32,6 +33,7 @@ export default function judicial() {
                 <MenuCards
                     title="STF - GRU Cobrança"
                     description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                    link="http://www.stf.jus.br/portal/recolhimentoDeCustas/recolhimentoDeCustas.asp"
                 />
 
                 <MenuCards
@@ -42,6 +44,7 @@ export default function judicial() {
                 <MenuCards
                     title="Sistema SISCONJD"
                     description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                    link="https://apps.tjrn.jus.br/portalsiscondj/login.jsp;jsessionid=940E51C72E23F8B7F78A7290E7E88195"
                 />
 
                 <MenuCards

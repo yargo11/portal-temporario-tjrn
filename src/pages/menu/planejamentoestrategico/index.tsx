@@ -12,11 +12,13 @@ export default function planejamentoestrategico() {
                 <MenuCards
                     title="GPS-JUS"
                     description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                    link="http://gpsjus.tjrn.jus.br/"
                 />
 
                 <MenuCards
                     title="Justiça em Números"
                     description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                    link="http://www.cnj.jus.br/programas-e-acoes/pj-justica-em-numeros"
                 />
 
                 <MenuCards

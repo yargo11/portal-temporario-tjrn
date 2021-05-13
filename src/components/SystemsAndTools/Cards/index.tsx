@@ -9,7 +9,7 @@ interface CardProps {
 
 export function Cards({ title, image, description, a }: CardProps) {
     return (
-        <a href="#">
+        <a href={a}>
             <div className={styles.cards}>
 
                 {image  ? (

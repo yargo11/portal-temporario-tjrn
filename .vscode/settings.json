@@ -1,0 +1,19 @@
+{
+    "editor.fontFamily": "Fira Code",
+"editor.fontLigatures": true,
+"editor.fontSize": 16,
+"explorer.compactFolders": false,
+"workbench.editor.labelFormat": "short",
+"javascript.updateImportsOnFileMove.enabled": "never",
+"typescript.updateImportsOnFileMove.enabled": "never",
+"breadcrumbs.enabled": true,
+"explorer.confirmDragAndDrop": false,
+"explorer.confirmDelete": false,
+"editor.rulers": [
+    80,
+    120
+],
+"editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+}

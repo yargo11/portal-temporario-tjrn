@@ -24,7 +24,7 @@ export function DesktopMenu() {
         <>
             <ul className={styles.Desktop}>
                 <li>
-                    <Link href="/menu/institucional">Institucional
+                    <Link href="/next/institucional">Institucional
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Dirigentes</a></li>
                             <li><a href="#">Composição</a></li>
@@ -32,25 +32,25 @@ export function DesktopMenu() {
                     </Link>
                 </li>
                 <li>
-                    <a href="/menu/administrativo">Administrativo
+                    <Link href="/next/administrativo">Administrativo
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Licitações em andamento</a></li>
                             <li><a href="#">Licitações concluídas</a></li>
                             <li><a href="#">Edital de chamamento</a></li>
                         </ul> */}
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="/menu/precatorios">Precatórios
+                    <Link href="/next/precatorios">Precatórios
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Consulte seu processo</a></li>
                             <li><a href="#">Lista cronológica</a></li>
                             <li><a href="#">RPV</a></li>
                         </ul> */}
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="/menu/judicial">Judicial
+                    <Link href="/next/judicial">Judicial
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Envio de Memorial</a></li>
                             <li><a href="#">Pauta de Julgamento</a></li>
@@ -72,20 +72,20 @@ export function DesktopMenu() {
                             <li><a href="#">Juizados Especiais</a></li>
                             <li><a href="#">Foro da comarca de Natal</a></li>
                         </ul> */}
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="/menu/planejamentoestrategico">Planejamento Estratégico
+                    <Link href="/next/planejamentoestrategico">Planejamento Estratégico
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">GPS-JUS</a></li>
                             <li><a href="#">Justiça em Números</a></li>
                             <li><a href="#">Relatório de Desempenho do PSL</a></li>
                             <li><a href="#">Comissões e Comitês</a></li>
                         </ul> */}
-                    </a>
+                    </Link>
                 </li>
                 <li><a href="#">Tecnologia da Informação</a></li>
-                <li><a href="/menu/fale-conosco">Fale conosco</a></li>
+                <li><Link href="/next/fale-conosco">Fale conosco</Link></li>
             </ul>
 
             <nav className={styles.Mobile}>

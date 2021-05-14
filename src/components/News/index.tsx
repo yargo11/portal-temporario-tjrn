@@ -7,7 +7,7 @@ export function News() {
                 <h1>Notícias do Judiciario</h1>
 
                 <span>
-                    <a href="#">Ver todas as notícias</a>
+                    <a href="/next/noticias.html">Ver todas as notícias</a>
                 </span>
 
                 <div className={styles.NoticiaPreview}>

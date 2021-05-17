@@ -1,25 +1,19 @@
 .Container {
     width: 100%;
-    margin: auto;
     background: #f8f8f8;
-    margin-top:40px;
-    padding: 10px;
-    padding-bottom: 30px;
+    padding-top: 71px;
+    padding-bottom: 91px;
 }
+
 .Content {
-    width: 100%;
-    max-width: 1120px;
-    margin: auto;
 
     h1 {
         font-size: 40px;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 50px;
 
         color: var(--pool-900);
-        padding:40px 0;
     }
-
     
 }
 
@@ -29,7 +23,7 @@
 
         display: grid;
         grid-template-columns: auto auto auto;
-        grid-column-gap: 20px;
+        grid-column-gap: 24px;
         grid-row-gap: 10px;
         // padding: 10px;
 
@@ -54,8 +48,11 @@
 
             &:hover{
                 color:var(--green-600);
-                transform: translateX(5px);
+                transform: translateX(3px);
             }
         }
     }
+}
+
+.Titulo{
 }

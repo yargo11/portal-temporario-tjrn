@@ -1,19 +1,10 @@
-.Container {
-    width: 100%;
-    max-width: 1120px;
-    margin: auto;
-    margin-top: 84px;
-}
-
 .Content {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
-    padding: 10px;
+    margin-top: 84px;
+    margin-bottom: 84px;
 
     h1 {
         font-size: 2.5rem;
-        font-weight: 700;
+        font-weight: 600;
         color: var(--pool-900);
     }
 
@@ -42,12 +33,13 @@
     }
 
     div {
-        padding: 40px 0 20px 0;
-        border-bottom: 1px solid #e2e2e2;
 
         a {
 
             &:hover{
+                p:first-child{
+                    text-decoration: underline;
+                }
                 p:last-child{
                     color:var(--pool-900);
                 }
@@ -79,7 +71,12 @@
         }
     }
 }
+.Titulo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
 
-.NoticiaPreview{
-    
+.NoticiaItem{
+    margin-top: 24px;
 }

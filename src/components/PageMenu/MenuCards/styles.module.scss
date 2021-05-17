@@ -1,11 +1,11 @@
 .Cards {
-    width: auto;
-    height: 149px;
-    background: #f8f8f8;
+    //width: auto;
+    //height: 149px;
+    //margin:5px;
+    //padding: 24px 24px;
 
-    margin:5px;
-    padding: 24px;
-
+    //background: #f8f8f8;
+    margin-bottom: 32px;
     transition: transform 0.2s;
 
     &:hover {
@@ -45,5 +45,14 @@
         color: #222222;
 
         transition: color 0.2s;
+    }
+
+    .Content{
+        background: #f8f8f8;
+        padding: 24px 24px;
+
+        a{
+            width: 100%;
+        }
     }
 }

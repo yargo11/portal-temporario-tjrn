@@ -15,7 +15,7 @@ export function News() {
                 <div className={'col-12'}>
                     <div className='Border-bottom-line'/>
                 </div>
-                <div className={styles.NoticiaItem + ' ' + 'col-6 mt-5'}>
+                <div className={styles.NoticiaItem + ' ' + 'col-12 col-lg-6  mt-5'}>
                     <a href="#">
                         <p>
                             Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso;
@@ -34,7 +34,7 @@ export function News() {
                     <div className='Border-bottom-line margin-top-24'/>
                 </div>
 
-                <div className={styles.NoticiaItem + ' ' + 'col-6 mt-5'}>
+                <div className={styles.NoticiaItem + ' ' + 'col-12 col-lg-6 mt-5'}>
                     <a href="#">
                         <p>
                             Fornecedores de serviços são condenados por demora na entrega e falhas em móveis
@@ -49,7 +49,7 @@ export function News() {
                     <div className='Border-bottom-line margin-top-24'/>
                 </div>
 
-                <div className={styles.NoticiaItem + ' ' + 'col-6'}>
+                <div className={styles.NoticiaItem + ' ' + 'col-12 col-lg-6'}>
                     <a href="#">
                         <p>
                             Juizados: novas Turmas Temporárias são instaladas a partir desta segunda-feira (10)
@@ -64,7 +64,7 @@ export function News() {
                     <div className='Border-bottom-line margin-top-24'/>
                 </div>
 
-                <div className={styles.NoticiaItem + ' ' + 'col-6'}>
+                <div className={styles.NoticiaItem + ' ' + 'col-12 col-lg-6'}>
                     <a href="#">
                         <p>
                             Violência contra a mulher: Formulário Nacional de Avaliação de Risco agora é lei
@@ -79,7 +79,7 @@ export function News() {
                     <div className='Border-bottom-line margin-top-24'/>
                 </div>
 
-                <div className={styles.NoticiaItem + ' ' + 'col-6'}>
+                <div className={styles.NoticiaItem + ' ' + 'col-12 col-lg-6'}>
                     <a href="#">
                         <p>
                             Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso;
@@ -98,7 +98,7 @@ export function News() {
                     <div className='Border-bottom-line margin-top-24'/>
                 </div>
 
-                <div className={styles.NoticiaItem + ' ' + 'col-6'}>
+                <div className={styles.NoticiaItem + ' ' + 'col-12 col-lg-6'}>
                     <a href="#">
                         <p>
                             Esmarn: diligências eletrônicas na atuação do Oficial de Justiça é tema de curso;

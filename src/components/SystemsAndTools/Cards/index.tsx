@@ -9,7 +9,7 @@ interface CardProps {
 
 export function Cards({ title, image, description, a }: CardProps) {
     return (
-        <div className={'col-12 col-md-4 col-lg-3'}>
+        <div className={'col-12 col-md-6 col-lg-4 col-xl-3'}>
             <a href={a}>
                 <div className={styles.cards }>
 

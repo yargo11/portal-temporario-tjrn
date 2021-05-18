@@ -1,8 +1,7 @@
 .Container {
     width: 100%;
     background: #f8f8f8;
-    padding-top: 71px;
-    padding-bottom: 91px;
+    padding: 70px 0;
 }
 
 .Content {
@@ -37,7 +36,7 @@
             font-weight: 700;
             line-height: 1.5rem;
             color: #404242;
-            margin-top: 40px;
+            margin-top: 2.5rem;
 
             transition:color, transform 0.2s;
 
@@ -49,6 +48,11 @@
             &:hover{
                 color:var(--green-600);
                 transform: translateX(3px);
+            }
+
+            @media(max-width:768px){
+                font-size:1.5rem;
+                margin-top: 1.5rem;
             }
         }
     }

@@ -62,6 +62,7 @@ a {
 .ReactCollapse--collapse{
     position:fixed;
     top:0;
+    margin-left: -11px;
     // bottom:0;
     
     transition: height 0.3s;
@@ -69,4 +70,16 @@ a {
 
 .ReactCollapse--content{
     // height: 100%;
+}
+
+.Border-bottom-line{
+    height: 1px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.margin-top-24{
+    margin-top: 24px;
+}
+.margin-top-32{
+    margin-top: 32px;
 }

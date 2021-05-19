@@ -24,7 +24,7 @@ export function DesktopMenu() {
         <>
             <ul className={styles.Desktop}>
                 <li>
-                    <Link href="/next/institucional">Institucional
+                    <Link href="/institucional">Institucional
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Dirigentes</a></li>
                             <li><a href="#">Composição</a></li>
@@ -32,7 +32,7 @@ export function DesktopMenu() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/next/administrativo">Administrativo
+                    <Link href="/administrativo">Administrativo
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Licitações em andamento</a></li>
                             <li><a href="#">Licitações concluídas</a></li>
@@ -41,7 +41,7 @@ export function DesktopMenu() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/next/precatorios">Precatórios
+                    <Link href="/precatorios">Precatórios
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Consulte seu processo</a></li>
                             <li><a href="#">Lista cronológica</a></li>
@@ -50,7 +50,7 @@ export function DesktopMenu() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/next/judicial">Judicial
+                    <Link href="/judicial">Judicial
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Envio de Memorial</a></li>
                             <li><a href="#">Pauta de Julgamento</a></li>
@@ -75,7 +75,7 @@ export function DesktopMenu() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/next/planejamentoestrategico">Planejamento Estratégico
+                    <Link href="/planejamentoestrategico">Planejamento Estratégico
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">GPS-JUS</a></li>
                             <li><a href="#">Justiça em Números</a></li>
@@ -84,8 +84,8 @@ export function DesktopMenu() {
                         </ul> */}
                     </Link>
                 </li>
-                <li><a href="#">Tecnologia da Informação</a></li>
-                <li><Link href="/next/fale-conosco">Fale conosco</Link></li>
+                {/* <li><a href="#">Tecnologia da Informação</a></li> */}
+                <li><Link href="/fale-conosco">Fale conosco</Link></li>
             </ul>
 
             <nav className={styles.Mobile}>

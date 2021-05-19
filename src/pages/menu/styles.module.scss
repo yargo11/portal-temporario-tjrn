@@ -1,12 +1,8 @@
 .CardOptions{
-    width: 100%;
-    max-width: 1120px;
-    margin: auto;
+    //width: 100%;
+    //max-width: 1120px;
+    //margin: auto;
 
-    display: grid;
-    grid-template-columns: auto auto auto;
-
-    @media(max-width: 768px){
-        grid-template-columns: auto auto;
-    }
+    //display: grid;
+    //grid-template-columns: auto auto auto;
 }

@@ -1,0 +1,18 @@
+.Container {
+    // width: 100vw;
+    max-width: 100vw;
+    margin: auto;
+    height: 145px;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+
+    background: #232324;
+    color:#ffffff;
+
+    div {
+        margin-left: auto;
+    }
+}

@@ -6,7 +6,7 @@ export function FastAccess() {
         <div className={styles.Container }>
             <div className={styles.Content + ' ' + 'container'}>
                 <div className={'row'}>
-                    <div className={'col-12' + ' ' + styles.Titulo}>
+                    <div className={'col-12' + ' '}>
                         <h1>Acesso Rápido</h1>
 
                         <div className={'col-12 margin-top-32'}>

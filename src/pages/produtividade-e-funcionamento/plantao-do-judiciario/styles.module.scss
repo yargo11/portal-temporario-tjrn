@@ -1,0 +1,44 @@
+.ContactOptions {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+
+    h1 {
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+
+        background-color: var(--cyan-600);
+        height: 3rem;
+
+        font-size: 2rem;
+        font-weight: 700;
+
+        color: #ffffff;
+    }
+
+    p {
+        color: #404242;
+
+        margin: 1rem;
+
+        a {
+            color: var(--pool-900);
+            font-weight: 700;
+        }
+
+        > span {
+            font-weight: 900;
+        }
+    }
+
+    #pHeader {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    #pDescription {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}

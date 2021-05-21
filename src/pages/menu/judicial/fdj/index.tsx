@@ -1,8 +1,6 @@
 import Banner from '../../../../components/PageMenu/Banner';
 import MenuCards from '../../../../components/PageMenu/MenuCards';
-import styles from '../../styles.module.scss';
-
-
+import styles from './styles.module.scss';
 
 export default function fdj() {
     return (

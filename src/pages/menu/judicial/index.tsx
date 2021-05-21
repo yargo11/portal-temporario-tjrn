@@ -8,7 +8,7 @@ export default function judicial() {
         <>
             <Banner title="Judicial"/>
             <div className={styles.CardOptions + ' ' + 'container'}>
-                <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 ">
+                {/* <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 "> */}
                     <MenuCards
                         title="Envio de Memorial"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
@@ -17,7 +17,7 @@ export default function judicial() {
                     <MenuCards
                         title="Pauta de Julgamento"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
-                        link="http://transparencia.tjrn.jus.br/index.php/orgaos-colegiados/pautas-julgamento-menu"
+                        anchor="http://transparencia.tjrn.jus.br/index.php/orgaos-colegiados/pautas-julgamento-menu"
                     />
 
                     <MenuCards
@@ -33,29 +33,31 @@ export default function judicial() {
                     <MenuCards
                         title="STF - GRU Cobrança"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
-                        link="http://www.stf.jus.br/portal/recolhimentoDeCustas/recolhimentoDeCustas.asp"
+                        anchor="http://www.stf.jus.br/portal/recolhimentoDeCustas/recolhimentoDeCustas.asp"
                     />
 
                     <MenuCards
                         title="Tabela de Custas"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                        anchor="/menu/judicial/tabela-de-custas"
                     />
 
                     <MenuCards
                         title="Sistema SISCONJD"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
-                        link="https://apps.tjrn.jus.br/portalsiscondj/login.jsp;jsessionid=940E51C72E23F8B7F78A7290E7E88195"
+                        anchor="https://apps.tjrn.jus.br/portalsiscondj/login.jsp;jsessionid=940E51C72E23F8B7F78A7290E7E88195"
                     />
 
                     <MenuCards
                         title="FDJ"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
-                        link="/menu/judicial/fdj"
+                        anchor="/menu/judicial/fdj"
                     />
 
                     <MenuCards
                         title="Súmulas"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                        anchor="/menu/judicial/sumulas"
                     />
 
                     <MenuCards
@@ -72,7 +74,7 @@ export default function judicial() {
                         title="Foro da comarca de Natal"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
                     />
-                </div>
+                {/* </div> */}
             </div>
         </>
     )

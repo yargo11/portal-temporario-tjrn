@@ -47,7 +47,7 @@ export function FastAccess() {
                                 </li>
 
                                 <li>
-                                    < a href="http://www.tjrn.jus.br/index.php/judicial/2013-03-07-17-23-58/direcao-do-foro/nucleo-de-pericias">
+                                    < a href="/acesso-rapido/cadastro-de-peritos">
                                         Cadastro de Peritos <FiChevronRight />
                                     </a>
                                 </li>
@@ -65,7 +65,7 @@ export function FastAccess() {
                                 </li>
 
                                 <li>
-                                    < a href="http://www.tjrn.jus.br/index.php/judicial/2013-03-07-17-23-58/leiloes">
+                                    < a href="/acesso-rapido/leiloes-judiciais">
                                         Leilões Judiciais <FiChevronRight />
                                     </a>
                                 </li>
@@ -77,7 +77,7 @@ export function FastAccess() {
                                 </li>
 
                                 <li>
-                                    < a href="#">
+                                    < a href="/menu/judicial/fdj">
                                         FDJ <FiChevronRight />
                                     </a>
                                 </li>

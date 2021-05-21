@@ -12,7 +12,7 @@ export default function conciliacao() {
             <div className={styles.CardOptions}>
                 <MenuCards
                     title="Agende sua conciliação"
-                    link="http://conciliacao.tjrn.jus.br/"
+                    anchor="http://conciliacao.tjrn.jus.br/"
                 />
 
                 <MenuCards
@@ -21,7 +21,7 @@ export default function conciliacao() {
 
                 <MenuCards
                     title="Consumidor.gov.br"
-                    link="https://www.consumidor.gov.br/pages/principal/?1590598388479"
+                    anchor="https://www.consumidor.gov.br/pages/principal/?1590598388479"
                 />
             </div>
         </>

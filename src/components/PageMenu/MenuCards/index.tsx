@@ -5,14 +5,14 @@ interface CardOptions {
     title: string;
     icon?: string;
     description?: string;
-    link?: string;
+    anchor?: string;
 }
 
-export default function MenuCards({title, description, link}: CardOptions) {
+export default function MenuCards({title, description, anchor}: CardOptions) {
     return (
         <div className={styles.Cards + ' ' + 'col'}>
             <div className={styles.Content}>
-                <a href={link}>
+                <a href={anchor}>
                     <div>
                         <h3>{title}</h3>
                         <FiArrowRight/>

@@ -12,17 +12,17 @@ export default function calculadora() {
             <div className={styles.CardOptions}>
                 <MenuCards
                     title="Calculadora automática"
-                    link="http://www.tjrn.jus.br/index.php/calculadora-automatica"
+                    anchor="http://www.tjrn.jus.br/index.php/calculadora-automatica"
                 />
 
                 <MenuCards
                     title="Calculadora de Prescrição da Pretensão Executória"
-                    link="https://www.cnj.jus.br/sistema-carcerario/calculadora-de-prescricao-da-pretensao-executoria/"
+                    anchor="https://www.cnj.jus.br/sistema-carcerario/calculadora-de-prescricao-da-pretensao-executoria/"
                 />
 
                 <MenuCards
                     title="Calculadora de Prescrição da Pretensão Punitiva"
-                    link="https://www.cnj.jus.br/sistema-carcerario/calculadora-de-prescricao-da-pretensao-punitiva/"
+                    anchor="https://www.cnj.jus.br/sistema-carcerario/calculadora-de-prescricao-da-pretensao-punitiva/"
                 />
             </div>
         </>

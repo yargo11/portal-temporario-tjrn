@@ -16,12 +16,12 @@ export default function acessoRapido() {
 
                 <MenuCards
                     title="SAJ (1º e 2º Grau - processos ainda não digitalizados)"
-                    link="http://esaj.tjrn.jus.br/esaj/portal.do?servico=190100"
+                    anchor="http://esaj.tjrn.jus.br/esaj/portal.do?servico=190100"
                 />
 
                 <MenuCards
                     title="Projud (Processos dos Juizados Especiais)"
-                    link="https://projudi.tjrn.jus.br/projudi/"
+                    anchor="https://projudi.tjrn.jus.br/projudi/"
                 />
             </div>
         </>

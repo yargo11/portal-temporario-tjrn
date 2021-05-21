@@ -8,7 +8,7 @@ export default function precatorios() {
         <>
             <Banner title="Precatórios"/>
             <div className={styles.CardOptions + ' ' + 'container'}>
-                <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 ">
+                {/* <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 "> */}
                     <MenuCards
                         title="Consulte seu processo"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
@@ -23,7 +23,7 @@ export default function precatorios() {
                         title="RPV"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
                     />
-                </div>
+                {/* </div> */}
             </div>
         </>
     )

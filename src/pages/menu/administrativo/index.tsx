@@ -8,7 +8,7 @@ export default function administrativo() {
         <>
             <Banner title="Administrativo"/>
             <div className={styles.CardOptions + ' ' + 'container'}>
-                <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+                {/* <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3"> */}
 
                     <MenuCards
                         title="Licitações em andamento"
@@ -24,7 +24,7 @@ export default function administrativo() {
                         title="Edital de chamamento"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
                     />
-                </div>
+                {/* </div> */}
             </div>
         </>
     )

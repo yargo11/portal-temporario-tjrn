@@ -1,12 +1,19 @@
-.Container {
+.GradientBar{
     width: 100%;
-    max-width: 1120px;
+    height: 3px;
+    background: linear-gradient(90deg, #59C4EA 0%, #BBD66F 49.48%, #008A9D 100%);
+}
+
+.Content {
+    width: 100%;
+    max-width: 1320px;
     margin: auto;
     height: 145px;
 
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+
 
     div {
         margin-left: auto;

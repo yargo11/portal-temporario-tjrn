@@ -8,6 +8,10 @@ export function Footer() {
                 Sete de Setembro, nº 34, Cidade Alta, Natal/RN, CEP 59025-300 -
                 (84) 3616-6200
             </h3>
+
+            <div>
+
+            </div>
         </div>
     )
 }

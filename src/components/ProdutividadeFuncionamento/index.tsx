@@ -33,12 +33,12 @@ export function ProdutividadeFuncionamento() {
                             </a>
                         </li>
                         <li>
-                            < a href="http://www.tjrn.jus.br/produtividade-covid19/">
+                            < a href="http://www.tjrn.jus.br/produtividade-covid19/" target="_blank">
                                 Produtividade Semanal do Poder Judiciário do RN <FiChevronRight />
                             </a>
                         </li>
                         <li>
-                            < a href="http://www.tjrn.jus.br/canaisdeatendimento/">
+                            < a href="http://www.tjrn.jus.br/canaisdeatendimento/" target="_blank">
                                 Canais de Atendimento <FiChevronRight />
                             </a>
                         </li>
@@ -48,12 +48,12 @@ export function ProdutividadeFuncionamento() {
                             </a>
                         </li>
                         <li>
-                            < a href="http://ouvidoria.tjrn.jus.br/pdf/Carta_de_Servi%C3%A7os_ao_Cidad%C3%A3o_TJRN_.pdf">
+                            < a href="http://ouvidoria.tjrn.jus.br/pdf/Carta_de_Servi%C3%A7os_ao_Cidad%C3%A3o_TJRN_.pdf"  target="_blank">
                                 Carta de Serviços ao Cidadão <FiChevronRight />
                             </a>
                         </li>
                         <li>
-                            < a href="http://transparencia.tjrn.jus.br/">
+                            < a href="http://transparencia.tjrn.jus.br/"  target="_blank">
                                 Feriados <FiChevronRight />
                             </a>
                         </li>

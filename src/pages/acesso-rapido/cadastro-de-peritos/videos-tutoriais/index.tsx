@@ -7,17 +7,57 @@ export default function videostutoriais() {
         <>
             <Banner title="Vídeos Tutoriais" />
             <div className={styles.ContactOptions}>
-                <h1>Teste</h1>
-                <iframe 
-                width="300"
-                height="250" 
-                src="https://www.youtube.com/embed/YO3sDGBUVig" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-                    
-                </iframe>
+
+                <p id={styles.pHeader}>Acesso ao sistema e alteração da senha</p>
+
+                <iframe
+                    width="380"
+                    height="300"
+                    src="https://www.youtube.com/embed/YO3sDGBUVig"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <p id={styles.pHeader}>Adquirir credenciais de acesso ao sistema</p>
+                <iframe
+                    width="380"
+                    height="300"
+                    src="https://www.youtube.com/embed/jb16Itd-uuU"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <p id={styles.pHeader}>Cadastro parte-01</p>
+                <iframe
+                    width="380"
+                    height="300"
+                    src="https://www.youtube.com/embed/v3ueZC-Zv9E"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <p id={styles.pHeader}>Cadastro parte-02</p>
+                <iframe
+                    width="380"
+                    height="300"
+                    src="https://www.youtube.com/embed/ULeSEFg4iNE"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <p id={styles.pHeader}>Recuperar senha</p>
+                <iframe
+                    width="380"
+                    height="300"
+                    src="https://www.youtube.com/embed/gsU09MohzSE"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
 
             </div>
         </>

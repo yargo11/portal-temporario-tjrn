@@ -1,0 +1,25 @@
+.Container {
+    width: 100vw;
+    background: var(--pool-300);
+}
+
+.Content{
+    width: 100%;
+    max-width: 1320px;
+    margin: auto;
+
+    text-align: center;    
+    padding: 1rem 0;
+
+    h1{
+        color: #ffffff;
+        font-size: 3rem;
+        font-weight: 700;
+
+        transition: color 0.2s;
+
+        &:hover{
+            color:var(--green-600);
+        }
+    }
+}

@@ -1,9 +1,8 @@
 .Container {
-    // width: 100vw;
-    max-width: 100vw;
-    margin: auto;
+    max-width: 100%;
     margin-top: 3rem;
     height: 145px;
+    padding: 0.5rem;
 
     display: flex;
     justify-content: center;
@@ -13,7 +12,48 @@
     background: #232324;
     color: #ffffff;
 
+    h3 {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
     div {
-        margin-left: auto;
+        margin: 1rem auto;
+
+        svg {
+            margin: 0.3rem;
+        }
+    }
+}
+
+.Facebook {
+    transition: color 0.2s;
+
+    &:hover {
+        color: #4267b2;
+    }
+}
+
+.Instagram {
+    transition: color 0.2s;
+
+    &:hover {
+        color: #c13584;
+    }
+}
+
+.Twitter {
+    transition: color 0.2s;
+
+    &:hover {
+        color: #1da1f2;
+    }
+}
+
+.Youtube {
+    transition: color 0.2s;
+
+    &:hover {
+        color: #ff0000;
     }
 }

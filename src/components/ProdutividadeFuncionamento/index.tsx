@@ -19,6 +19,8 @@ export function ProdutividadeFuncionamento() {
                     <span>Sexta-feira:</span><br />
                     07h - 14h
                 </p>
+                
+                <hr/>
 
                 <div className={styles.Links}>
                     <ul>

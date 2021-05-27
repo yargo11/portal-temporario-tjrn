@@ -1,0 +1,40 @@
+.pagination {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
+    li {
+        font-weight: 700;
+        font-size: 1rem;
+        color: #ffffff;
+    
+        transition: background 0.2s;
+    
+        &:not(.active):not(.disabled) {
+            cursor: pointer;
+            background: var(--green-600);
+
+            &:hover {
+                background: darken(#b8d272, 30%);
+            }
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 9px 8px;
+            min-width: 3rem;
+        }
+
+        &.active, &.disabled {
+            cursor: default;
+            background: var(--pool-900);
+        }
+    }
+}
+
+
+
+
+

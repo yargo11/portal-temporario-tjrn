@@ -8,7 +8,7 @@
 
     padding: 0px 10px;
 
-    @media(max-width:768px){
+    @media (max-width: 768px) {
         background: var(--pool-300);
     }
 }
@@ -25,32 +25,41 @@
         font-size: 3rem;
         font-weight: 700;
     }
-    p{
+    p {
         max-width: 600px;
         width: 100%;
 
         font-size: 1.125rem;
         font-weight: 400;
 
-        color:#ffffff;
+        color: #ffffff;
 
         line-height: 27px;
-
-
     }
 
-    span{
+    span {
         font-size: 1.125rem;
         font-weight: 700;
 
         text-decoration: underline;
-        color:#ffffff;
+        color: #ffffff;
 
         transition: 0.2s;
 
-        &:hover{
-            color:var(--green-600);
+        &:hover {
+            color: var(--green-600);
         }
     }
 }
 
+.LinkBanner {
+    font-weight: 700;
+
+    color: var(--green-400);
+
+    transition: color 0.2s;
+
+    &:hover {
+        color: var(--green-900);
+    }
+}

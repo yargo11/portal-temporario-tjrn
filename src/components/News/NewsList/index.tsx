@@ -9,7 +9,6 @@ export function NewsList() {
 
     const [news, setNews] = useState<NewsInterface[]>();
     const [maxPage, setMaxPage] = useState(0);
-    const [pageNumber, setPageNumber] = useState(1);
 
     const data = NOTICIATESTE;
     const pageListSize = 10;
@@ -17,16 +16,12 @@ export function NewsList() {
     useEffect(() => {
         //apinoticia.get('lista').then(response => data = response.data).catch(error => console.log(error));
 
-        setNews(data.length > pageListSize ? data.slice((pageListSize * (pageNumber - 1)), (pageListSize * pageNumber)) : data);
+        setNews(data.length > pageListSize ? data.slice((pageListSize * 0 ), (pageListSize * 1)) : data);
         setMaxPage(data ? Math.ceil(data.length/pageListSize) : 1);
 	}, []);
 
-    function handlePageClick({ selected: selectedPage }) {
-        setPageNumber(selectedPage);
-        setNews(data.length > pageListSize ? data.slice((pageListSize * (pageNumber - 1)), (pageListSize * pageNumber)) : data);
-
-        console.log(pageNumber);
-        //console.log("data.length: " + data.length + ", pageListSize: " + pageListSize + ", pageNumber:" + pageNumber);
+    const handlePageClick = (selectedPage) => {
+        setNews(data.length > pageListSize ? data.slice((pageListSize * selectedPage.selected ), (pageListSize * (selectedPage.selected + 1))) : data);
     }
     
     return (
@@ -34,10 +29,7 @@ export function NewsList() {
             <div className={'row'}>
                 {news ? news
                     .map(newsElement => (
-                        <div className={styles.NoticiaItem + ' col-12 col-lg-6  mt-5'} key={newsElement.id}>
-                            <NewsHomeListItem  noticia={newsElement}/>
-                            <div className='Border-bottom-line margin-top-24'/>
-                        </div>
+                            <NewsHomeListItem key={newsElement.id}  noticia={newsElement}/>
                     )): <></>
                 }
             </div>

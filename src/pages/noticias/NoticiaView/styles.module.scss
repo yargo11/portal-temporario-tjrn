@@ -1,0 +1,28 @@
+.Noticia {
+    max-width: 872px;
+    display: grid;
+    margin: 0 auto;
+
+    h1 {
+        margin-top: 3.13rem;
+
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 3.75rem;
+    }
+
+    div {
+        p {
+            &:first-child {
+                margin-top: 4.125rem;
+            }
+            &:not(:first-child) {
+                margin: 0 0;
+            }
+        }
+
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 1.563rem;    
+    }
+}

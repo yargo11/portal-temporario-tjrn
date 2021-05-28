@@ -8,15 +8,18 @@ interface NewsProps {
 
 export function NewsHomeListItem(props: NewsProps) {
 	return (
-        <a href="#">
-            <p>{props.noticia.titulo}</p>
-            <span>
-            {new Intl.DateTimeFormat('pt-BR', {
-                }).format(new Date(props.noticia.dataPublicacao))}
-            </span>
-            <p>
-                {props.noticia.corpo? he.decode(props.noticia.corpo.replace(/<[^>]+>/g, '')).slice(0,140) : ''} ...
-            </p>
-        </a>
+        <div className={styles.NoticiaItem + ' col-12 col-lg-6  mt-5'}>
+            <a href="/noticias/NoticiaView">
+                <p className={styles.NoticiaTitulo}>{props.noticia.titulo}</p>
+                <span className={styles.Data}>
+                {new Intl.DateTimeFormat('pt-BR', {
+                    }).format(new Date(props.noticia.dataPublicacao))}
+                </span>
+                <p className={styles.NoticiaCorpo}>
+                    {props.noticia.corpo? he.decode(props.noticia.corpo.replace(/<[^>]+>/g, '')).slice(0,140) : ''} ...
+                </p>
+            </a>
+            <div className='Border-bottom-line margin-top-24'/>
+        </div>
 	);
 }

@@ -34,34 +34,6 @@
     }
 
     div {
-
-        a {
-
-            &:hover{
-                p:first-child{
-                    text-decoration: underline;
-                }
-                p:last-child{
-                    color:var(--pool-900);
-                }
-            }
-            p {
-                font-size: 1.25rem;
-                font-weight: 600;
-                line-height: 25.14px;
-                color: var(--pool-900);
-
-                &:last-child {
-                    font-size: 1rem;
-                    font-weight: 400;
-                    line-height: 20.11px;
-                    color: #404242;
-
-                    transition: color 0.2s;
-                }
-            }
-        }
-
         span {
             font-size: 0.875rem;
             font-weight: 400;
@@ -76,8 +48,4 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 26px;
-}
-
-.NoticiaItem{
-    margin-top: 24px;
 }

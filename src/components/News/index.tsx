@@ -35,10 +35,7 @@ export function News() {
 
                 {news ? news
                     .map(newsElement => (
-                        <div className={styles.NoticiaItem + ' col-12 col-lg-6  mt-5'} key={newsElement.id}>
-                            <NewsHomeListItem noticia={newsElement}/>
-                            <div className='Border-bottom-line margin-top-24'/>
-                        </div>
+                            <NewsHomeListItem key={newsElement.id} noticia={newsElement}/>
                     )): <></>
                 }
             </div>

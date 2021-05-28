@@ -26,9 +26,16 @@
         // grid-row-gap: 10px;
         // padding: 10px;
 
-        @media(max-width:1200px){
-            display: flex;
-            flex-flow:column wrap;
+        @media (max-width: 1200px) {
+            grid-template-columns: auto auto auto;
+        }
+
+        @media (max-width: 768px) {
+            grid-template-columns: auto auto;
+        }
+
+        @media (max-width: 576px) {
+            grid-template-columns: auto;
         }
 
         li {

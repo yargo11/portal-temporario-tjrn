@@ -100,13 +100,22 @@ export function DesktopMenu() {
                     isOpened={isButtonCollapseOpen}>
                     <div id={accessibilityIds.button} className="blob">
                         <ul className={styles.HiddenMenu}>
-                            <li><a href="#">Institucional</a></li>
-                            <li><a href="#">Administrativo</a></li>
-                            <li><a href="#">Precatórios</a></li>
-                            <li><a href="#">Judicial</a></li>
-                            <li><a href="#">Planejamento Estratégico</a></li>
-                            <li><a href="#">Tecnologia da Informação</a></li>
-                            <li><a href="#">Fale conosco</a></li>
+                            <li>
+                                <Link href="/institucional">Institucional</Link>
+                            </li>
+                            <li>
+                                <Link href="/administrativo">Administrativo</Link>
+                            </li>
+                            <li>
+                                <Link href="/precatorios">Precatórios</Link>
+                            </li>
+                            <li>
+                                <Link href="/judicial">Judicial</Link>
+                            </li>
+                            <li>
+                                <Link href="/planejamentoestrategico">Planejamento Estratégico</Link>
+                            </li>
+                            <li><Link href="/fale-conosco">Fale conosco</Link></li>
                         </ul>
                     </div>
                 </Collapse>

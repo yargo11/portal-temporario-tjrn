@@ -92,7 +92,7 @@ export default function operadoresdodireito() {
                     />
 
                     <MenuCards
-                        title="Plantão do Judiciário "
+                        title="Plantão do Judiciário"
                         anchor="/produtividade-e-funcionamento/plantao-do-judiciario/"
                     />
 

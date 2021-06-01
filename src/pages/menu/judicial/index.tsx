@@ -11,7 +11,7 @@ export default function judicial() {
                 {/* <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 "> */}
                 <MenuCards
                     title="Envio de Memorial"
-                    description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                    anchor="/menu/judicial/envio-de-memorial"
                 />
 
                 <MenuCards
@@ -22,12 +22,13 @@ export default function judicial() {
 
                 <MenuCards
                     title="Calendário das Sessões de Julgamento"
-                    description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                    anchor="/menu/judicial/calendario-de-sessoes"
+                    
                 />
 
                 <MenuCards
                     title="Custas - Tribunais Superiores"
-                    description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                    anchor="/menu/judicial/custas-tribunais-superiores"
                 />
 
                 <MenuCards
@@ -62,18 +63,18 @@ export default function judicial() {
 
                 <MenuCards
                     title="Peticionamento CNJ"
-                    description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                    anchor="/files/peticionamento-cnj/peticionamento-eletronico-comunicacao-cnj.pdf"
                 />
-
+{/* A definir
                 <MenuCards
                     title="Juizados Especiais"
                     description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
-                />
-
+                /> */}
+{/* A definir
                 <MenuCards
                     title="Foro da comarca de Natal"
                     description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
-                />
+                /> */}
 
                 <MenuCards
                     title="SIGPEC"

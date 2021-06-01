@@ -12,13 +12,13 @@ export default function institucional() {
                     <MenuCards
                         title="Dirigentes"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
-                        anchor="#"
+                        anchor="/menu/institucional/dirigentes"
                     />
 
                     <MenuCards
                         title="Composição"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
-                        anchor="#"
+                        anchor="/menu/institucional/composicao"
                     />
                 {/* </div> */}
             </div>

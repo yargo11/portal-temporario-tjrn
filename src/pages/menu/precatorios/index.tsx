@@ -11,17 +11,17 @@ export default function precatorios() {
                 {/* <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 "> */}
                     <MenuCards
                         title="Consulte seu processo"
-                        description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                        anchor="/menu/precatorios/consulte-seu-processo"
                     />
 
                     <MenuCards
                         title="Lista cronológica"
-                        description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                        anchor="/menu/precatorios/lista-cronologica"
                     />
 
                     <MenuCards
                         title="RPV"
-                        description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                        anchor="/menu/precatorios/rpv"
                     />
                 {/* </div> */}
             </div>

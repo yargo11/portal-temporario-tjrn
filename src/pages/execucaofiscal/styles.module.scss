@@ -1,0 +1,46 @@
+.ContentContainer {
+    max-width: 1120px;
+    margin:  0 auto;
+    border:  0;
+
+    text-align: center;
+
+    display: grid;
+
+    div {
+        margin:  0 auto;
+        font-size: 1.2rem;
+        color: var(--pool-900);
+        &.Titulo {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.IconeExecucaoFiscal {
+    margin:  0 auto;
+    width: 23.25rem;
+    height: 21.25rem;
+}
+
+.DocumentCard {
+    width: 14rem;
+    display: grid;
+    border: 0;
+
+    img {
+        height: 35px;
+        width: 30px;
+        margin: 0 auto;
+    }
+    
+    margin-top: 3.125rem;
+}
+
+.Lista {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

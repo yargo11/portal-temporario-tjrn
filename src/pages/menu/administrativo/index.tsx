@@ -13,11 +13,13 @@ export default function administrativo() {
                     <MenuCards
                         title="Licitações em andamento"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                        anchor="/menu/administrativo/licitacoesemandamento"
                     />
 
                     <MenuCards
                         title="Licitações concluídas"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                        anchor="/menu/administrativo/licitacoesconcluidas"
                     />
 
                     <MenuCards

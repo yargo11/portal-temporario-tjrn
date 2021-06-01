@@ -25,7 +25,7 @@
 }
 
 .DocumentCard {
-    width: 14rem;
+    width: 11rem;
     display: grid;
     border: 0;
 
@@ -38,9 +38,44 @@
     margin-top: 3.125rem;
 }
 
-.Lista {
+.ListaDeDocumentos {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    width: 100%;
+}
+
+
+.ListaDeAnexos {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 100%;
+
+    img {
+        height: 100px;
+        width: 100px;
+
+        margin: 0 auto;
+    }
+
+    .Anexo {
+        margin-top: 3.125rem;
+    }
+
+    a {
+        & + a {
+            margin-top: 1rem;
+        }
+    }
+}
+
+.Anexo {
+    width: 21rem;
+    display: grid;
+    border: 0;
 }

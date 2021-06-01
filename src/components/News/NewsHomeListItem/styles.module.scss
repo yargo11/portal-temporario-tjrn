@@ -1,0 +1,36 @@
+.NoticiaTitulo {
+    &:hover {
+        text-decoration: underline;
+    }
+
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 25.14px;
+    color: var(--pool-900);
+}
+
+.NoticiaCorpo {
+    &:hover {
+        color:var(--pool-900);
+    }
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20.11px;
+    color: #404242;
+
+    transition: color 0.2s;
+}
+
+.NoticiaItem{
+    margin-top: 24px;
+}
+
+.Data {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #707070;
+    margin: 6px 0px;
+
+    justify-content: flex-start;
+}

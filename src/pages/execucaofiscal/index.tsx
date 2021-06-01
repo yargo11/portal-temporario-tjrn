@@ -18,20 +18,12 @@ function documentCard({ documento }: attachmentCardProps) {
     );
 }
 
-function attachmentCard({ documento }: attachmentCardProps) {
-    return (
-        <a href={documento.link} className={styles.DocumentCard}>
-            <img src={'/images/icons/file_download_black_18dp.svg'} alt={'download de ' + documento.descricao}/>
-            <div className={styles.Titulo}>{documento.titulo}</div>
-            <div>{documento.descricao}</div>
-        </a>
-    );
-}
-
 export default function execucaoFiscal() {
     return (
         <div className={styles.ContentContainer}>
-            <img src={'/images/icons/menu_book_black_24dp.svg'} alt="download execução fiscal efetiva" className={styles.IconeExecucaoFiscal}/>
+            <a href='/files/execucaofiscal/miolo-cartilha-gestao-fiscal-efetiva - cartilha-gestao-fiscal-4.pdf'>
+                <img src={'/images/livro.png'} alt="download execução fiscal efetiva" className={styles.IconeExecucaoFiscal}/>
+            </a>
             <div className={styles.Titulo}>GESTÃO FISCAL EFETIVA</div>
             <div>Programa de Governança Diferenciada das Execuções Fiscais</div>
             <div className={styles.ListaDeDocumentos}>

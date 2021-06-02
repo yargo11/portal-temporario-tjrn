@@ -24,11 +24,13 @@ export default function planejamentoestrategico() {
                     <MenuCards
                         title="Relatório de Desempenho do PSL"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                        anchor="/menu/planejamentoestrategico/relatorio-de-desempenho"
                     />
 
                     <MenuCards
                         title="Comissões e Comitês"
                         description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
+                        anchor="/menu/planejamentoestrategico/comissoes-e-comites"
                     />
                 {/* </div> */}
             </div>

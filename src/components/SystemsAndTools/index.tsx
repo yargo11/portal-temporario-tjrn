@@ -29,7 +29,7 @@ export function SystemsAndTools() {
                                 title="PJe"
                                 image="pje"
                                 description="Tincidunt tincidunt tristique ac ipsum justo, aliquam adipiscing dui eget"
-                                anchor="#"
+                                anchor="/operadores-do-direito/pje"
                             />
 
                             <Cards
@@ -43,7 +43,7 @@ export function SystemsAndTools() {
                                 title="SIGAJUS"
                                 image="sigajus"
                                 description="Tincidunt tincidunt tristique ac ipsum justo, aliquam adipiscing dui eget"
-                                anchor="#"
+                                anchor="http://sigajus.tjrn.jus.br/public/jsp/portal.jsf"
                             />
 
                             <Cards

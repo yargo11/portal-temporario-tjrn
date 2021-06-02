@@ -1,5 +1,5 @@
 
-import FileDoc from '../../../components/File/FileDoc';
+import FilePdf from '../../../components/File/FilePdf';
 import Banner from '../../../components/PageMenu/Banner';
 import MenuCards from '../../../components/PageMenu/MenuCards';
 import styles from './styles.module.scss';
@@ -28,12 +28,12 @@ export default function calculadora() {
                     />
                 </div>
                 <div className={styles.CalcFiles}>
-                    <FileDoc
+                    <FilePdf
                         title="Tutoial (visão pública)"
                         anchor="/files/calculadoras/tutorial-calculadora-automatica-visao-publica.pdf"
                     />
 
-                    <FileDoc
+                    <FilePdf
                         title="TUTORIAL – Cumprimento de Sentença com descontos de IRRF e Previdência "
                         anchor="/files/calculadoras/TUTORIAL_CALCULADORA.pdf"
                     />

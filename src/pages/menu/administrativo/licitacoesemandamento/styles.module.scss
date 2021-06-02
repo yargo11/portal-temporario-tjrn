@@ -24,8 +24,10 @@
             height: 100px;
         }
 
-        & + a {
-            margin-left: 5rem;
+        @media (min-width: 496px) {
+            & + a {
+                margin-left: 5rem;
+            }
         }
     }
 }

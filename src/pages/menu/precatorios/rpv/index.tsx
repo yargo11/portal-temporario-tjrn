@@ -1,4 +1,5 @@
 import FileDoc from '../../../../components/File/FileDoc';
+import FilePdf from '../../../../components/File/FilePdf';
 import Banner from '../../../../components/PageMenu/Banner';
 import styles from './styles.module.scss';
 
@@ -7,16 +8,16 @@ export default function calendariodesessoes() {
         <>
             <Banner title="Calendário das Sessões de Julgamento" />
             <div className={styles.Content}>
-                <FileDoc
+                <FilePdf
                     title="Relação de Leis RPV RN "
                     description="Relação dos limites de RPV obtidos pela Divisão de Precatórios ao longo dos anos."
                     anchor="/files/rpv/01 - leis municipais rpv - limites de rpv (atualizado em dez 2019).pdf"
                 />
-                <FileDoc
+                <FilePdf
                     title="Regimento Interno - alterado até ER 28-2019 "
                     anchor="/files/rpv/regimento_interno__-_2008_-_alterado_até_er_28-2019.pdf"
                 />
-                <FileDoc
+                <FilePdf
                     title="Relação de referências de crédito para calculadora automática "
                     anchor="/files/rpv/relação de referências de crédito para calculadora automática.pdf"
                 />

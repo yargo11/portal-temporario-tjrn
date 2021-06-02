@@ -23,7 +23,7 @@ export default function custastribunaissuperiores() {
 
                 <h1>Recurso Extraordinário</h1>
                 <p id={styles.pDescription}>
-                    Guia Principal do Valor Fixo: <a href="www.beninca.com.br">clique aqui</a>
+                    Guia Principal do Valor Fixo: <a href="http://www.beninca.com.br">clique aqui</a>
                 </p>
 
                 <p id={styles.pDesciption}>

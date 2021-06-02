@@ -1,7 +1,7 @@
 import styles from './styles.module.scss';
 
 import { FiFileText, FiDownload } from 'react-icons/fi'
-import FileDoc from '../../../../components/File/FileDoc';
+import FilePdf from '../../../../components/File/FilePdf';
 import Banner from '../../../../components/PageMenu/Banner';
 
 export default function editaldecredenciamento() {
@@ -11,25 +11,25 @@ export default function editaldecredenciamento() {
             <div className={styles.Content}>
                 <h1><FiFileText />Documentos</h1>
 
-                <FileDoc
+                <FilePdf
                     title=
                     "Resolução Nº 05-TJ, de 28 de fevereiro de 2018"
                     anchor="/files/cadastro-de-peritos/edital-de-credenciamento/resolução_nº_05-tj-2018.pdf"
                 />
 
-                <FileDoc
+                <FilePdf
                     title=
                     "Resolução Nº 06-TJ, de 28 de fevereiro de 2018"
                     anchor="/files/cadastro-de-peritos/edital-de-credenciamento/resolução_nº_06-tj-2018.pdf"
                 />
 
-                <FileDoc
+                <FilePdf
                     title=
                     "EDITAL DE CREDENCIAMENTTO Nº 05/2021 TJRN EDITAL DE CREDENCIAMENTTO Nº 05/2021 TJRN"
                     anchor="/files/cadastro-de-peritos/edital-de-credenciamento/edital de credenciamento nº 05-2021-tjrn .pdf"
                 />
 
-                <FileDoc
+                <FilePdf
                     title=
                     "EDITAL DE CREDENCIAMENTO Nº 01/2018"
                     anchor="/files/cadastro-de-peritos/resolucoes/edital_de_credenciamento_01-2018.pdf"
@@ -39,7 +39,7 @@ export default function editaldecredenciamento() {
                     exame técnico em processos judiciais, inclusive, nos casos de beneficiários da justiça gratuita."
                 />
 
-                <FileDoc
+                <FilePdf
                     title=
                     "EDITAL DE CREDENCIAMENTO Nº 01/2013"
                     anchor="/files/cadastro-de-peritos/resolucoes/edital_de_credenciamento 01-2013.pdf"
@@ -49,7 +49,7 @@ export default function editaldecredenciamento() {
                     do Norte. "
                 />
 
-                <FileDoc
+                <FilePdf
                     title=
                     "EDITAL DE CREDENCIAMENTO Nº 01/2012"
                     anchor="/files/cadastro-de-peritos/resolucoes/edital de credenciamento 01.2012.pdf"

@@ -2,7 +2,7 @@ import Banner from '../../components/PageMenu/Banner';
 import styles from './styles.module.scss';
 
 import { FiFileText, FiDownload } from 'react-icons/fi'
-import { File } from '../../components/File';
+import FileDoc from '../../components/File/FileDoc';
 
 export default function arquivos() {
     return (
@@ -17,25 +17,25 @@ export default function arquivos() {
                     </div>
                     <a href="#"><FiDownload /><span>Baixar Arquivo</span></a>
                 </div> */}
-                <File
+                <FileDoc
                     title=
                     "Termo de Referência SETIC 2021 0002 - Modelo de proposta e plano de inserção"
                     anchor="#"
                 />
 
-                <File
+                <FileDoc
                     title=
                     "Termo de Referência SETIC 2021 0002"
                     anchor="#"
                 />
 
-                <File
+                <FileDoc
                     title=
                     "Resposta - Impugnação ao Edital nº 002.2020"
                     anchor="#"
                 />
 
-                <File
+                <FileDoc
                     title=
                     "EDITAL DE CHAMAMENTO PÚBLICO N° 02/2020– TJ-SAD"
                     anchor="#"

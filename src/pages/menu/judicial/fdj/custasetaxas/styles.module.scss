@@ -1,0 +1,44 @@
+.ContentContainer {
+    margin: 0 auto;
+    max-width: 1120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+    color: var(--pool-900);
+    font-size: 1.125rem;
+    font-weight: 400;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-content: flex-start;
+
+        img {
+            height: 35px;
+            width: 30px;
+        }
+
+        font-weight: bold;
+    }
+}
+
+.Card {
+    width: 50%;
+    min-width: 300px;
+
+    margin-bottom: 3rem;
+
+    text-align: center;
+    line-height: 2rem;
+
+    @media (max-width: 599px) {
+        width: 100%;
+    }
+}
+
+.Text {
+    & + p {
+        margin-top: 1rem;
+    }
+}

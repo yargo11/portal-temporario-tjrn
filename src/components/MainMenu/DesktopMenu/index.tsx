@@ -24,7 +24,7 @@ export function DesktopMenu() {
         <>
             <ul className={styles.Desktop}>
                 <li>
-                    <Link href="/institucional">Institucional
+                    <Link href="/menu/institucional">Institucional
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Dirigentes</a></li>
                             <li><a href="#">Composição</a></li>
@@ -32,7 +32,7 @@ export function DesktopMenu() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/administrativo">Administrativo
+                    <Link href="/menu/administrativo">Administrativo
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Licitações em andamento</a></li>
                             <li><a href="#">Licitações concluídas</a></li>
@@ -41,7 +41,7 @@ export function DesktopMenu() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/precatorios">Precatórios
+                    <Link href="/menu/precatorios">Precatórios
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Consulte seu processo</a></li>
                             <li><a href="#">Lista cronológica</a></li>
@@ -50,7 +50,7 @@ export function DesktopMenu() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/judicial">Judicial
+                    <Link href="/menu/judicial">Judicial
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">Envio de Memorial</a></li>
                             <li><a href="#">Pauta de Julgamento</a></li>
@@ -75,7 +75,7 @@ export function DesktopMenu() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/planejamentoestrategico">Planejamento Estratégico
+                    <Link href="/menu/planejamentoestrategico">Planejamento Estratégico
                         {/* <ul className={styles.dropdownContent}>
                             <li><a href="#">GPS-JUS</a></li>
                             <li><a href="#">Justiça em Números</a></li>
@@ -85,7 +85,7 @@ export function DesktopMenu() {
                     </Link>
                 </li>
                 {/* <li><a href="#">Tecnologia da Informação</a></li> */}
-                <li><Link href="/fale-conosco">Fale conosco</Link></li>
+                <li><Link href="/menu/fale-conosco">Fale conosco</Link></li>
             </ul>
 
             <nav className={styles.Mobile}>
@@ -101,21 +101,21 @@ export function DesktopMenu() {
                     <div id={accessibilityIds.button} className="blob">
                         <ul className={styles.HiddenMenu}>
                             <li>
-                                <Link href="/institucional">Institucional</Link>
+                                <Link href="/menu/institucional">Institucional</Link>
                             </li>
                             <li>
-                                <Link href="/administrativo">Administrativo</Link>
+                                <Link href="/menu/administrativo">Administrativo</Link>
                             </li>
                             <li>
-                                <Link href="/precatorios">Precatórios</Link>
+                                <Link href="/menu/precatorios">Precatórios</Link>
                             </li>
                             <li>
-                                <Link href="/judicial">Judicial</Link>
+                                <Link href="/menu/judicial">Judicial</Link>
                             </li>
                             <li>
-                                <Link href="/planejamentoestrategico">Planejamento Estratégico</Link>
+                                <Link href="/menu/planejamentoestrategico">Planejamento Estratégico</Link>
                             </li>
-                            <li><Link href="/fale-conosco">Fale conosco</Link></li>
+                            <li><Link href="/menu/fale-conosco">Fale conosco</Link></li>
                         </ul>
                     </div>
                 </Collapse>

@@ -1,11 +1,10 @@
 {
   "name": "portal-temporario",
-  "homepage": "http://tjrn.jus.br/next/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next dev",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {

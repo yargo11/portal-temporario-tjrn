@@ -15,9 +15,9 @@ export default function videostutoriais() {
                     height="300"
                     src="https://www.youtube.com/embed/YO3sDGBUVig"
                     title="YouTube video player"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                    allowFullScreen></iframe>
 
                 <p id={styles.pHeader}>Adquirir credenciais de acesso ao sistema</p>
                 <iframe
@@ -25,9 +25,9 @@ export default function videostutoriais() {
                     height="300"
                     src="https://www.youtube.com/embed/jb16Itd-uuU"
                     title="YouTube video player"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                    allowFullScreen></iframe>
 
                 <p id={styles.pHeader}>Cadastro parte-01</p>
                 <iframe
@@ -35,9 +35,9 @@ export default function videostutoriais() {
                     height="300"
                     src="https://www.youtube.com/embed/v3ueZC-Zv9E"
                     title="YouTube video player"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                    allowFullScreen></iframe>
 
                 <p id={styles.pHeader}>Cadastro parte-02</p>
                 <iframe
@@ -45,9 +45,9 @@ export default function videostutoriais() {
                     height="300"
                     src="https://www.youtube.com/embed/ULeSEFg4iNE"
                     title="YouTube video player"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                    allowFullScreen></iframe>
 
                 <p id={styles.pHeader}>Recuperar senha</p>
                 <iframe
@@ -55,9 +55,9 @@ export default function videostutoriais() {
                     height="300"
                     src="https://www.youtube.com/embed/gsU09MohzSE"
                     title="YouTube video player"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                    allowFullScreen></iframe>
 
             </div>
         </>

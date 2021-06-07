@@ -6,7 +6,7 @@
         font-size: 2.5rem;
         font-weight: 600;
         color: var(--pool-900);
-    }
+    }    
 
     span {
         display: flex;
@@ -48,4 +48,9 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 26px;
+}
+
+#newsButton{
+    display: flex;
+    justify-content: flex-end;
 }

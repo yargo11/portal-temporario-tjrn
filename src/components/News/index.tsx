@@ -36,7 +36,7 @@ export function News() {
                     <div className='Border-bottom-line' />
                 </div>
 
-                <span>
+                <span id={styles.newsButton}>
                     <a href="/noticias">Ver todas as notícias</a>
                 </span>
             </div>

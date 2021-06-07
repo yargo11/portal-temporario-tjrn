@@ -28,7 +28,6 @@ export function NewsList() {
             ).catch(error => console.log(error));
         }
         getData();
-        console.log(data);
 	}, []);
 
     const handlePageClick = (selectedPage) => {
@@ -36,7 +35,6 @@ export function NewsList() {
             setNews(data.length > pageListSize ? data.slice((pageListSize * selectedPage.selected ), (pageListSize * (selectedPage.selected + 1))) : data);
         }
         getNews();
-        console.log('handlePageClick');
     }
     
     return (

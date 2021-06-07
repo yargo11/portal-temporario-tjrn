@@ -21,9 +21,6 @@ export function News() {
 
                 <div className={'col-12 ' + styles.Titulo}>
                     <h1>Notícias</h1>
-                    <span>
-                        <a href="/noticias">Ver todas as notícias</a>
-                    </span>
                 </div>
 
                 <div className={'col-12'}>
@@ -35,10 +32,13 @@ export function News() {
                         <NewsHomeListItem key={newsElement.id} noticia={newsElement} />
                     )) : <></>
                 }
-
                 <div className={'col-12'}>
                     <div className='Border-bottom-line' />
                 </div>
+
+                <span>
+                    <a href="/noticias">Ver todas as notícias</a>
+                </span>
             </div>
         </div>
     )

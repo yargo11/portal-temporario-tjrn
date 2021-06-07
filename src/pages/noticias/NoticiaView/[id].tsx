@@ -12,7 +12,10 @@ export default function lerNoticia() {
     const [news, setNews] = useState<NewsInterface>();
 
     useEffect(() => {
-        apinoticia.get('elemento/' + id).then(response => setNews(response.data)).catch(error => console.log(error));
+        if (id) {
+            apinoticia.get('elemento/' + id).then(response => setNews(response.data)).catch(error => console.log(error));
+            apinoticia.post('imagem', JSON.parse('{"path": "images/debate1.jpeg"}')).then(response => console.log(JSON.stringify(response.data))).catch(error => console.log(error));
+        }
 	}, [id]);
     return (
         <div className={styles.Noticia}>

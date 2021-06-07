@@ -9,7 +9,7 @@ export default function calendariodassessoesdejulgamento() {
             <div className={styles.Content}>
 
                 <FilePdf
-                    title="Calendário das Sessões da Segunda Câmara Cível - 2021 Calendário das Sessões da Segunda Câmara Cível - 2021 "
+                    title="Calendário das Sessões da Segunda Câmara Cível - 2021"
                     anchor="/files/sessoes-de-julgamento/calendário das sessões da segunda câmara cível - 2021.pdf"
                 />
 

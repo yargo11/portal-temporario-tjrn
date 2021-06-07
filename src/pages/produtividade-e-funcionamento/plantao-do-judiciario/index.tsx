@@ -78,7 +78,7 @@ export default function plantaodojudiciario() {
                      de confirmação e segurança.<br />
                 </p>
 
-                <p id={styles.pHeader}>[ VEJA A ESCALA DE PLANTÃO (Não implementado ainda: http://www.tjrn.jus.br/index.php/judicial/plantao-do-judiciario/2012-09-09-17-44-17)]:</p>
+                {/* <p id={styles.pHeader}>[ VEJA A ESCALA DE PLANTÃO (Não implementado ainda: http://www.tjrn.jus.br/index.php/judicial/plantao-do-judiciario/2012-09-09-17-44-17)]:</p> */}
 
                 <p id={styles.pHeader}>CONTATOS:</p>
 

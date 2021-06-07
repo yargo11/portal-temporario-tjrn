@@ -1,4 +1,5 @@
 import styles from './styles.module.scss';
+import { FiPhone, FiFileText, FiSearch } from 'react-icons/fi';
 
 export function Banner() {
     return (
@@ -10,17 +11,17 @@ export function Banner() {
                         {/* <h1 className={'mb-3'}>Bem vindo ao novo site do TJRN</h1> */}
                         <p className={'mb-4'}>
                             <a className={styles.LinkBanner} href="/acesso-rapido/consulta-processual/">
-                                Consulta Processual
+                                <FiSearch /> Consulta Processual
                             </a>
                         </p>
                         <p className={'mb-4'}>
                             <a className={styles.LinkBanner} href="/acesso-rapido/certidoes/">
-                                Certidões
+                               <FiFileText /> Certidões
                             </a>
                         </p>
                         <p className={'mb-4'}>
                             <a className={styles.LinkBanner} href="http://www.tjrn.jus.br/canaisdeatendimento/">
-                                Canais de Atendimento
+                                <FiPhone /> Canais de Atendimento
                             </a>
                         </p>
                         {/* <span>

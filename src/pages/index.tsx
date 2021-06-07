@@ -4,6 +4,7 @@ import { News } from "../components/News";
 import { OperadoresDoDireito } from "../components/OperadoresDoDireito";
 import { ProdutividadeFuncionamento } from "../components/ProdutividadeFuncionamento";
 import { SystemsAndTools } from "../components/SystemsAndTools";
+import { Temas } from "../components/Temas";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <News />
       <SystemsAndTools />
       <OperadoresDoDireito />
+      <Temas />
     </>
   )
 }

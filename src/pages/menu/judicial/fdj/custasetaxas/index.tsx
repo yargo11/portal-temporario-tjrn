@@ -4,7 +4,7 @@ import Banner from "../../../../../components/PageMenu/Banner";
 export default function custasetaxas() {
     return(
         <>
-            <Banner title="FDJ" />
+            <Banner title="Custas e Taxas" />
             <div className={styles.ContentContainer}>
                 <div className={styles.Card}>
                     <a href='http://sistemas.tjrn.jus.br/fdj/'>

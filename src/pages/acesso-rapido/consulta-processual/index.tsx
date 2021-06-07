@@ -12,6 +12,7 @@ export default function acessoRapido() {
             <div className={styles.CardOptions}>
                 <MenuCards
                     title="PJe (1º e 2º Grau)"
+                    anchor="/operadores-do-direito/pje/"
                 />
 
                 <MenuCards

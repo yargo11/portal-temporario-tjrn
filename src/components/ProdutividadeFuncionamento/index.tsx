@@ -55,7 +55,7 @@ export function ProdutividadeFuncionamento() {
                             </a>
                         </li>
                         <li>
-                            < a href="http://transparencia.tjrn.jus.br/"  target="_blank">
+                            < a href="/operadores-do-direito/calendario-das-sessoes-de-julgamento/"  target="_blank">
                                 Feriados <FiChevronRight />
                             </a>
                         </li>

@@ -4,7 +4,7 @@ import Banner from "../../../../../components/PageMenu/Banner";
 export default function devolucaodecustas() {
     return (
         <>
-            <Banner title="FDJ" />
+            <Banner title="RESTITUIÇÃO DE CUSTAS" />
             <div className={styles.ContentContainer}>
                 <h1>RESTITUIÇÃO DE CUSTAS – INFORMAÇÕES GERAIS</h1>
 

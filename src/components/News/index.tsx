@@ -4,18 +4,15 @@ import { apinoticia } from '../../service/apinoticia';
 import styles from './styles.module.scss';
 import { NewsHomeListItem } from './NewsHomeListItem';
 
-import NOTICIATESTE from '../../../test/news.json';
-
 export function News() {
 
     const [news, setNews] = useState<NewsInterface[]>();
 
     useEffect(() => {
-        let data = NOTICIATESTE;
-
-        //apinoticia.get('lista').then(response => data = response.data).catch(error => console.log(error));
-
-        setNews(data.length > 6 ? data.slice(0,6) : data);
+        async function getNews() {
+            await apinoticia.get('lista').then(response => setNews(response.data.length > 6 ? response.data.slice(0, 6) : response.data)).catch(error => console.log(error));
+        }
+        getNews();
 	}, []);
 
     return (

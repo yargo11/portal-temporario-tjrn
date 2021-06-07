@@ -5,16 +5,17 @@ import { NewsHomeListItem } from '../NewsHomeListItem';
 import ReactPaginate from 'react-paginate';
 
 import NOTICIATESTE from '../../../../test/news.json';
+import { apinoticia } from "../../../service/apinoticia";
 export function NewsList() {
 
     const [news, setNews] = useState<NewsInterface[]>();
     const [maxPage, setMaxPage] = useState(0);
 
-    const data = NOTICIATESTE;
+    const [data, setData] = useState<NewsInterface[]>();
     const pageListSize = 10;
 
     useEffect(() => {
-        //apinoticia.get('lista').then(response => data = response.data).catch(error => console.log(error));
+        apinoticia.get('lista').then(response => setData(response.data)).catch(error => console.log(error));
 
         setNews(data.length > pageListSize ? data.slice((pageListSize * 0 ), (pageListSize * 1)) : data);
         setMaxPage(data ? Math.ceil(data.length/pageListSize) : 1);

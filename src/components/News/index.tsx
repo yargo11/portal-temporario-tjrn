@@ -20,7 +20,7 @@ export function News() {
             <div className={'row'}>
 
                 <div className={'col-12 ' + styles.Titulo}>
-                    <h1>Notícias do Judiciário</h1>
+                    <h1>Notícias</h1>
                     <span>
                         <a href="/noticias">Ver todas as notícias</a>
                     </span>

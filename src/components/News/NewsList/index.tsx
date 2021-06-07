@@ -4,7 +4,6 @@ import styles from './styles.module.scss';
 import { NewsHomeListItem } from '../NewsHomeListItem';
 import ReactPaginate from 'react-paginate';
 
-import NOTICIATESTE from '../../../../test/news.json';
 import { apinoticia } from "../../../service/apinoticia";
 export function NewsList() {
 
@@ -15,11 +14,15 @@ export function NewsList() {
     const pageListSize = 10;
 
     useEffect(() => {
-        apinoticia.get('lista').then(response => setData(response.data)).catch(error => console.log(error));
-
-        setNews(data.length > pageListSize ? data.slice((pageListSize * 0 ), (pageListSize * 1)) : data);
-        setMaxPage(data ? Math.ceil(data.length/pageListSize) : 1);
-	}, []);
+        async function getNews() {
+            await apinoticia.get('lista').then(response => {
+                setData(response.data);
+                setNews(data.length > pageListSize ? data.slice((pageListSize * 0 ), (pageListSize * 1)) : data);
+                setMaxPage(data ? Math.ceil(data.length/pageListSize) : 1);
+            }).catch(error => console.log(error));
+        }
+        getNews();
+	}, [data]);
 
     const handlePageClick = (selectedPage) => {
         setNews(data.length > pageListSize ? data.slice((pageListSize * selectedPage.selected ), (pageListSize * (selectedPage.selected + 1))) : data);
@@ -46,6 +49,7 @@ export function NewsList() {
                 containerClassName={styles.pagination}
                 activeClassName={styles.active}
                 disabledClassName={styles.disabled}
+
             />
         </div>
     );

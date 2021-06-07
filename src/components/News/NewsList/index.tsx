@@ -14,18 +14,29 @@ export function NewsList() {
     const pageListSize = 10;
 
     useEffect(() => {
-        async function getNews() {
-            await apinoticia.get('lista').then(response => {
-                setData(response.data);
-                setNews(data.length > pageListSize ? data.slice((pageListSize * 0 ), (pageListSize * 1)) : data);
-                setMaxPage(data ? Math.ceil(data.length/pageListSize) : 1);
-            }).catch(error => console.log(error));
+        async function getData() {
+            await apinoticia.get('lista').then(
+                response => {
+                    setData(response.data);
+                    return response;
+                }
+            ).then(
+                response => {
+                    setNews(response.data.length > pageListSize ? response.data.slice((pageListSize * 0 ), (pageListSize * 1)) : response.data);
+                    setMaxPage(response.data ? Math.ceil(response.data.length/pageListSize) : 1);
+                }
+            ).catch(error => console.log(error));
         }
-        getNews();
-	}, [data]);
+        getData();
+        console.log(data);
+	}, []);
 
     const handlePageClick = (selectedPage) => {
-        setNews(data.length > pageListSize ? data.slice((pageListSize * selectedPage.selected ), (pageListSize * (selectedPage.selected + 1))) : data);
+        async function getNews() {
+            setNews(data.length > pageListSize ? data.slice((pageListSize * selectedPage.selected ), (pageListSize * (selectedPage.selected + 1))) : data);
+        }
+        getNews();
+        console.log('handlePageClick');
     }
     
     return (
@@ -36,21 +47,23 @@ export function NewsList() {
                             <NewsHomeListItem key={newsElement.id}  noticia={newsElement}/>
                     )): <></>
                 }
-            </div>
-            <ReactPaginate
-                previousLabel={'Anterior'}
-                nextLabel={'Próximo'}
-                breakLabel={'...'}
-                breakClassName={'break-me'}
-                pageCount={maxPage}
-                marginPagesDisplayed={2}
-                pageRangeDisplayed={5}
-                onPageChange={handlePageClick}
-                containerClassName={styles.pagination}
-                activeClassName={styles.active}
-                disabledClassName={styles.disabled}
 
-            />
+                {news ? 
+                    <ReactPaginate
+                    previousLabel={'Anterior'}
+                    nextLabel={'Próximo'}
+                    breakLabel={'...'}
+                    breakClassName={'break-me'}
+                    pageCount={maxPage}
+                    marginPagesDisplayed={2}
+                    pageRangeDisplayed={5}
+                    onPageChange={handlePageClick}
+                    containerClassName={styles.pagination}
+                    activeClassName={styles.active}
+                    disabledClassName={styles.disabled}
+                     />:<></>
+                }
+            </div>
         </div>
     );
 }

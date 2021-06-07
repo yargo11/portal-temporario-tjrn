@@ -16,153 +16,153 @@ export function OperadoresDoDireito() {
                             <ul>
                                 <li>
                                     < a href="http://plenariovirtual.tjrn.jus.br/">
-                                        Plenário Virtual <FiChevronRight />
+                                        Plenário Virtual 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/operadores-do-direito/pje">
-                                        PJe <FiChevronRight />
+                                        PJe 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="https://apps.tjrn.jus.br/siri/f/public/consultarIndisponibilidade/index.xhtml">
-                                        Sistema de Registro de Indisponibilidade <FiChevronRight />
+                                        Sistema de Registro de Indisponibilidade 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="https://seeu.pje.jus.br/seeu/">
-                                        Sistema Eletrônico de Execução Unificado (SEEU) <FiChevronRight />
+                                        Sistema Eletrônico de Execução Unificado (SEEU) 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/acesso-rapido/calculadora/">
-                                        Calculadoras <FiChevronRight />
+                                        Calculadoras 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="https://www.cnj.jus.br/sistemas/">
-                                        Sistemas do CNJ <FiChevronRight />
+                                        Sistemas do CNJ 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="https://renajud.denatran.serpro.gov.br/renajud/login.jsf">
-                                        RENAJUD <FiChevronRight />
+                                        RENAJUD 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="https://www.cnj.jus.br/sistemas/infoseg/">
-                                        INFOSEG <FiChevronRight />
+                                        INFOSEG 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="https://www.cnj.jus.br/sistemas/infojud/">
-                                        INFOJUD <FiChevronRight />
+                                        INFOJUD 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="https://www.bcb.gov.br/?bcjud">
-                                        Bacen Jud <FiChevronRight />
+                                        Bacen Jud 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="https://projudi.tjrn.jus.br/projudi/">
-                                        PROJUDI <FiChevronRight />
+                                        PROJUDI 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="http://esaj.tjrn.jus.br/sajcas/login?service=http%3A%2F%2Fesaj.tjrn.jus.br%2Fpush%2Fj_spring_cas_security_check">
-                                        Push <FiChevronRight />
+                                        Push 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="http://sistemasdis-01.tjrn.jus.br/cep/login.jsf">
-                                        CEP - Controle Estatístico de Prisões <FiChevronRight />
+                                        CEP - Controle Estatístico de Prisões 
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <h3>Serviçoes e Informações</h3>
+                    <h3>Serviços e Informações</h3>
 
                     <div className={'col-12'}>
                         <div className={styles.Links}>
                             <ul>
                                 <li>
                                     < a href="http://sistemasdis-01.tjrn.jus.br/formularioJudiciario/inicial.jsf">
-                                        Sustentação Oral (Formulário) <FiChevronRight />
+                                        Sustentação Oral (Formulário) 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/menu/judicial/sumulas">
-                                        Súmulas <FiChevronRight />
+                                        Súmulas 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/produtividade-e-funcionamento/plantao-do-judiciario/">
-                                        Plantão do Judiciário <FiChevronRight />
+                                        Plantão do Judiciário 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="http://transparencia.tjrn.jus.br/index.php/orgaos-colegiados/pautas-julgamento-menu">
-                                        Pauta de Julgamento <FiChevronRight />
+                                        Pauta de Julgamento 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/operadores-do-direito/calendario-das-sessoes-de-julgamento">
-                                        Calendário das Sessões de Julgamento <FiChevronRight />
+                                        Calendário das Sessões de Julgamento 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="https://jurisprudencia.tjrn.jus.br/">
-                                        Jurisprudência <FiChevronRight />
+                                        Jurisprudência 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="">
-                                        Envio de Memorial <FiChevronRight />
+                                        Envio de Memorial 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="http://esaj.tjrn.jus.br/esaj/portal.do?servico=820100">
-                                        Peticionamento Eletrônico de 1º Grau <FiChevronRight />
+                                        Peticionamento Eletrônico de 1º Grau 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/menu/judicial/tabela-de-custas/">
-                                        Tabela de Custas <FiChevronRight />
+                                        Tabela de Custas 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="https://www.bb.com.br/pbb/pagina-inicial/setor-publico/judiciario/depositos-judiciais#/">
-                                        Depósito Judicial <FiChevronRight />
+                                        Depósito Judicial 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/files/operadores-do-direito/portaria-295-2015.pdf">
-                                        Portaria Nº 295/2015 <FiChevronRight />
+                                        Portaria Nº 295/2015 
                                     </a>
                                 </li>
                             </ul>
@@ -176,13 +176,13 @@ export function OperadoresDoDireito() {
                             <ul>
                                 <li>
                                     < a href="https://jurisprudencia.tjrn.jus.br/">
-                                        Jurisprudência <FiChevronRight />
+                                        Jurisprudência 
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="http://centraldeestagio.tjrn.jus.br/">
-                                        Central de Estágio <FiChevronRight />
+                                        Central de Estágio 
                                     </a>
                                 </li>
                             </ul>
@@ -202,13 +202,13 @@ export function OperadoresDoDireito() {
                             <ul>
                                 <li>
                                     < a href="http://www.tjrn.jus.br/index.php/judicial/2013-03-07-17-23-58/justica-comum/formularios">
-                                        Infância e Juventude  <FiChevronRight />
+                                        Infância e Juventude  
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="http://cemulher.tjrn.jus.br/">
-                                        Mulher <FiChevronRight />
+                                        Mulher 
                                     </a>
                                 </li>
                             </ul>

@@ -7,9 +7,18 @@ export function Banner() {
                 <div className={'row'}>
                     <div className={'col-12'}>
 
-                        <h1 className={'mb-3'}>Bem vindo ao novo site do TJRN</h1>
+                        {/* <h1 className={'mb-3'}>Bem vindo ao novo site do TJRN</h1> */}
                         <p className={'mb-4'}>
-                            Acesse nossos canais de atendimento através da página:
+                            <a className={styles.LinkBanner} href="/acesso-rapido/consulta-processual/">
+                                Consulta Processual
+                            </a>
+                        </p>
+                        <p className={'mb-4'}>
+                            <a className={styles.LinkBanner} href="/acesso-rapido/certidoes/">
+                                Certidões
+                            </a>
+                        </p>
+                        <p className={'mb-4'}>
                             <a className={styles.LinkBanner} href="http://www.tjrn.jus.br/canaisdeatendimento/">
                                 Canais de Atendimento
                             </a>

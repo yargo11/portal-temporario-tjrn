@@ -18,79 +18,79 @@ export function FastAccess() {
                             <ul>
                                 <li>
                                     < a href="http://transparencia.tjrn.jus.br/">
-                                        Transparência <FiChevronRight />
+                                        Transparência
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="http://ouvidoria.tjrn.jus.br/index.php/acesso-a-informacao">
-                                        Acesso à Informação <FiChevronRight />
+                                        Acesso à Informação
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="http://diario.tjrn.jus.br/">
-                                        Diario de Justiça Eletrônico <FiChevronRight />
+                                        Diario de Justiça Eletrônico
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/acesso-rapido/conciliacao">
-                                        Conciliação <FiChevronRight />
+                                        Conciliação
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="https://agile.tjrn.jus.br/">
-                                        Agile <FiChevronRight />
+                                        Agile
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/acesso-rapido/cadastro-de-peritos">
-                                        Cadastro de Peritos <FiChevronRight />
+                                        Cadastro de Peritos
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="http://corregedoria.tjrn.jus.br/index.php/extrajudicial">
-                                        Cartórios <FiChevronRight />
+                                        Cartórios
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/acesso-rapido/certidoes">
-                                        Certidões <FiChevronRight />
+                                        Certidões
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/acesso-rapido/leiloes-judiciais">
-                                        Leilões Judiciais <FiChevronRight />
+                                        Leilões Judiciais
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="http://ouvidoria.tjrn.jus.br/">
-                                        Ouvidoria <FiChevronRight />
+                                        Ouvidoria
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/menu/judicial/fdj">
-                                        FDJ <FiChevronRight />
+                                        FDJ
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/acesso-rapido/calculadora">
-                                        Calculadoras <FiChevronRight />
+                                        Calculadoras
                                     </a>
                                 </li>
 
                                 <li>
                                     < a href="/acesso-rapido/consulta-processual">
-                                        Consulta Processual <FiChevronRight />
+                                        Consulta Processual
                                     </a>
                                 </li>
                             </ul>

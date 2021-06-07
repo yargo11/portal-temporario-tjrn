@@ -13,7 +13,7 @@ export function News() {
             await apinoticia.get('lista').then(response => setNews(response.data.length > 6 ? response.data.slice(0, 6) : response.data)).catch(error => console.log(error));
         }
         getNews();
-	}, []);
+    }, []);
 
     return (
         <div className={styles.Content + ' container'}>
@@ -27,14 +27,18 @@ export function News() {
                 </div>
 
                 <div className={'col-12'}>
-                    <div className='Border-bottom-line'/>
+                    <div className='Border-bottom-line' />
                 </div>
 
                 {news ? news
                     .map(newsElement => (
-                            <NewsHomeListItem key={newsElement.id} noticia={newsElement}/>
-                    )): <></>
+                        <NewsHomeListItem key={newsElement.id} noticia={newsElement} />
+                    )) : <></>
                 }
+
+                <div className={'col-12'}>
+                    <div className='Border-bottom-line' />
+                </div>
             </div>
         </div>
     )

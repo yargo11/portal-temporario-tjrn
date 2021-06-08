@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@djpfs/react-vlibras": "^1.0.5",
+    "@types/": "djpfs/react-vlibras",
     "@types/react-collapse": "^5.0.0",
     "axios": "^0.21.1",
     "bootstrap": "4.6.0",

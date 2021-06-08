@@ -11,7 +11,7 @@ export function Banner() {
                         {/* <h1 className={'mb-3'}>Bem vindo ao novo site do TJRN</h1> */}
                         <p className={'mb-4'}>
                             <a className={styles.LinkBanner} href="/acesso-rapido/consulta-processual/">
-                                <FiSearch /> Consulta Processual
+                                <FiSearch />Consulta Processual
                             </a>
                         </p>
                         <p className={'mb-4'}>

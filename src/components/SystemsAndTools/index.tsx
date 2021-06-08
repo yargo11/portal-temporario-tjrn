@@ -18,7 +18,6 @@ export function SystemsAndTools() {
                         <div className={styles.Card + ' ' + 'row'}>
                             <Cards
                                 title="Serviços (SAJ)"
-                                image="saj"
                                 description="Consultas Processuais, Jurisprudência, Push, Pauta de Julgamento, Peticionamento
                     Eletrônico de 1º Grau, Conferência de Documento Digital do 1º Grau, Intimações e Citações On-line,
                     Certidões"
@@ -27,49 +26,42 @@ export function SystemsAndTools() {
 
                             <Cards
                                 title="PJe"
-                                image="pje"
                                 description="Acessos, Consulta Pública, Cadastro Juspostulandi, Autenticidade de Documentos"
                                 anchor="/operadores-do-direito/pje"
                             />
 
                             <Cards
                                 title="Plenário virtual"
-                                image="plenario"
                                 description="Acompanhamento de Julgamento Virtual de Processos"
                                 anchor="http://plenariovirtual.tjrn.jus.br/"
                             />
 
                             <Cards
                                 title="SIGAJUS"
-                                image="sigajus"
                                 description="Sistema Integrado de Gestão Administrativa da Justiça"
                                 anchor="http://sigajus.tjrn.jus.br/public/jsp/portal.jsf"
                             />
 
                             <Cards
                                 title="OUVIDORIA"
-                                image=""
                                 description="Acesso a informação, dúvidas, críticas, sugestões, denúncias e reclamações"
                                 anchor="http://ouvidoria.tjrn.jus.br/"
                             />
 
                             <Cards
                                 title="PROJUD"
-                                image=""
                                 description="Processos dos Juizados Especiais"
                                 anchor="https://projudi.tjrn.jus.br/projudi/"
                             />
 
                             <Cards
                                 title="SISCONDJ"
-                                image=""
                                 description="O Sistema de Controle de Depósitos Judiciais. Permite a emissão de alvarás eletrônicos pelo Banco do Brasil"
                                 anchor="https://apps.tjrn.jus.br/portalsiscondj/login.jsp;jsessionid=940E51C72E23F8B7F78A7290E7E88195"
                             />
 
                             <Cards
                                 title="GPS-JUS"
-                                image=""
                                 description="Acompanhamento de metas do CNJ por unidades Judiciárias"
                                 anchor="http://gpsjus.tjrn.jus.br/"
                             />

@@ -14,13 +14,12 @@ export default function lerNoticia() {
     useEffect(() => {
         if (id) {
             apinoticia.get('elemento/' + id).then(response => setNews(response.data)).catch(error => console.log(error));
-            apinoticia.post('imagem', JSON.parse('{"path": "images/debate1.jpeg"}')).then(response => console.log(JSON.stringify(response.data))).catch(error => console.log(error));
         }
 	}, [id]);
     return (
         <div className={styles.Noticia}>
             <h1>{news ? news.titulo : ''}</h1>
-            <div>{news ? parse(news.corpo.replaceAll('src=\"', 'src=\"http://intranet.tjrn.jus.br/')) : ''}</div>
+            <div>{news ? parse(news.corpo) : ''}</div>
         </div>
     )
 }

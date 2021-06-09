@@ -4,13 +4,30 @@ import { MainMenu } from '../components/MainMenu';
 import '../styles/global.scss';
 import '../styles/bootstrap-grid.scss';
 import { Footer } from '../components/Footer';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import VLibras from '../vlibras'
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+import * as gtag from "../utils/gtag";
 
 function MyApp({ Component, pageProps }: AppProps) {
+
+  const router = useRouter();
+
+  useEffect(() => {
+    const handleRouteChange = (url: URL) => {
+      gtag.pageview(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+
   return (
     <>
       <Header />
       <MainMenu />
+      <VLibras />
       <Component {...pageProps} />
       <Footer />
     </>

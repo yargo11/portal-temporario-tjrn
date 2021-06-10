@@ -1,25 +1,31 @@
-import { useEffect, useState } from "react";
 import { NewsInterface } from "../../../interfaces/newsInterface";
 import parse from 'html-react-parser';
+import { GetServerSideProps } from 'next';
 
 import styles from './styles.module.scss';
 
 import { apinoticia } from "../../../service/apinoticia";
-import { useRouter } from 'next/router';
 
-export default function lerNoticia() {
-    const { id } = useRouter().query;
-    const [news, setNews] = useState<NewsInterface>();
+interface newsProps {
+    noticia: NewsInterface;
+}
 
-    useEffect(() => {
-        if (id) {
-            apinoticia.get('elemento/' + id).then(response => setNews(response.data)).catch(error => console.log(error));
-        }
-	}, [id]);
+export default function lerNoticia({ noticia } : newsProps) {
     return (
         <div className={styles.Noticia}>
-            <h1>{news ? news.titulo : ''}</h1>
-            <div>{news ? parse(news.corpo) : ''}</div>
+            <h1>{noticia ? noticia.titulo : ''}</h1>
+            <div>{noticia ? parse(noticia.corpo) : ''}</div>
         </div>
     )
+}
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+    const { id } = context.query;
+    const noticia = await (await apinoticia.get('elemento/' + id)).data;
+
+    return {
+        props: {
+            noticia
+        },
+    }
 }

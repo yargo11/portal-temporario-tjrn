@@ -1,20 +1,9 @@
-import { useEffect, useState } from 'react';
 import { NewsInterface } from '../../interfaces/newsInterface';
-import { apinoticia } from '../../service/apinoticia';
 import styles from './styles.module.scss';
 import { NewsHomeListItem } from './NewsHomeListItem';
+import { NewsPropsInterface } from '../../interfaces/newsPropsInterface';
 
-export function News() {
-
-    const [news, setNews] = useState<NewsInterface[]>();
-
-    useEffect(() => {
-        async function getNews() {
-            await apinoticia.get('lista').then(response => setNews(response.data.length > 6 ? response.data.slice(0, 6) : response.data)).catch(error => console.log(error));
-        }
-        getNews();
-    }, []);
-
+export function News({ listaDeNoticia }: NewsPropsInterface) {
     return (
         <div className={styles.Content + ' container'}>
             <div className={'row'}>
@@ -27,9 +16,9 @@ export function News() {
                     <div className='Border-bottom-line' />
                 </div>
 
-                {news ? news
-                    .map(newsElement => (
-                        <NewsHomeListItem key={newsElement.id} noticia={newsElement} />
+                {listaDeNoticia ? listaDeNoticia
+                    .map(noticia => (
+                        <NewsHomeListItem key={noticia.id} noticia={noticia} />
                     )) : <></>
                 }
                 <div className={'col-12'}>

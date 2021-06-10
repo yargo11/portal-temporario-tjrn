@@ -8,6 +8,7 @@ import VLibras from '../vlibras'
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import * as gtag from "../utils/gtag";
+import { CookiesButton } from '../components/CookiesButton';
 
 function MyApp({ Component, pageProps }: AppProps) {
 
@@ -30,6 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <VLibras />
       <Component {...pageProps} />
       <Footer />
+      <CookiesButton />
     </>
   )
 }

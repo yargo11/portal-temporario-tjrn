@@ -11,13 +11,11 @@ export default function institucional() {
                 {/* <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3"> */}
                     <MenuCards
                         title="Dirigentes"
-                        description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
                         anchor="/menu/institucional/dirigentes"
                     />
 
                     <MenuCards
                         title="Composição"
-                        description="Habitasse ridiculus aenean sit in a volutpat, faucibus amet ridiculus."
                         anchor="/menu/institucional/composicao"
                     />
                 {/* </div> */}

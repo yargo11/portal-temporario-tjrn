@@ -1,6 +1,5 @@
 import styles from './styles.module.scss';
 import { FiChevronRight } from 'react-icons/fi';
-import { Button, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 // import Button from 'react-bootstrap/Button';
 

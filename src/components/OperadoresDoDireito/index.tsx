@@ -1,6 +1,4 @@
-import Link from 'next/link';
 import styles from './styles.module.scss';
-import { FiChevronRight } from 'react-icons/fi'
 
 export function OperadoresDoDireito() {
     return (

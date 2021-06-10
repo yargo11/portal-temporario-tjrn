@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 // reactstrap components
-import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
+import { Modal } from "reactstrap";
 
 import styles from './styles.module.scss';
 

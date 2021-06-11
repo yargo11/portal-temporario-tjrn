@@ -26,12 +26,12 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
+      <CookiesButton />
       <Header />
       <MainMenu />
       <VLibras />
       <Component {...pageProps} />
       <Footer />
-      <CookiesButton />
     </>
   )
 }

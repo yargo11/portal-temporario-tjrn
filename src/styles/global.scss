@@ -83,3 +83,13 @@ a {
 .margin-top-32{
     margin-top: 32px;
 }
+
+.modalContainer{
+    position: fixed;
+    display: flex;
+    width:100vw;
+    bottom: 0;
+    margin:1rem auto;
+    justify-content: center;
+    // padding-right: 170px;
+}

@@ -14,6 +14,7 @@ export function CookiesButton() {
         if (typeof window !== 'undefined') {
             localStorage.setItem('GA-tjrn', 'true');
         }
+        
     }
 
     useEffect(() => {
@@ -25,11 +26,16 @@ export function CookiesButton() {
     return cookieEnabled ? (
         <></>
     ) : (
-        <Modal className={styles.Container} toggle={() => setModalOpen(!modalOpen)} isOpen={modalOpen} >
-                <div className={styles.Cookies}>
-                    <p>Os cookies nos permitem oferecer nossos serviços. Ao utilizá-los, você aceita o uso que fazemos dos cookies</p>
-                    <button type="button" onClick={toogleModal}> Aceito </button>
-                </div>
+        <Modal
+            modalClassName={'modalContainer'}
+            // className={styles.Container}
+            toggle={() => setModalOpen(!modalOpen)}
+            isOpen={modalOpen}
+        >
+            <div className={styles.Cookies}>
+                <p>Os cookies nos permitem oferecer nossos serviços. Ao utilizá-los, você aceita o uso que fazemos dos cookies</p>
+                <button type="button" onClick={toogleModal}> Aceito </button>
+            </div>
         </Modal >
     )
 }

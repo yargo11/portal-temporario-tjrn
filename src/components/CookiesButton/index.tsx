@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import * as ReactGA from 'react-ga';
 // reactstrap components
 import { Modal } from "reactstrap";
 
@@ -15,6 +16,7 @@ export function CookiesButton() {
             localStorage.setItem('GA-tjrn', 'true');
         }
         
+        ReactGA.initialize('UA-38668588-1');
     }
 
     useEffect(() => {

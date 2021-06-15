@@ -12,7 +12,9 @@ export default function noticias({ listaDeNoticia }: NewsPropsInterface) {
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-    const listaDeNoticia = await (await apinoticia.get('lista')).data;
+    let listaDeNoticia = [];
+    await apinoticia.get('lista').then(response => listaDeNoticia = response.data).catch(error => console.log(error));
+
     return {
         props: {
             listaDeNoticia

@@ -15,8 +15,6 @@ export function CookiesButton() {
         if (typeof window !== 'undefined') {
             localStorage.setItem('GA-tjrn', 'true');
         }
-        
-        ReactGA.initialize('UA-38668588-1');
     }
 
     useEffect(() => {
@@ -25,12 +23,15 @@ export function CookiesButton() {
         }
     }, [])
 
+    if(typeof window !== 'undefined' && localStorage.getItem('GA-tjrn')) {
+        ReactGA.initialize('UA-38668588-1');
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }
     return cookieEnabled ? (
         <></>
     ) : (
         <Modal
             modalClassName={'modalContainer'}
-            // className={styles.Container}
             toggle={() => setModalOpen(!modalOpen)}
             isOpen={modalOpen}
         >

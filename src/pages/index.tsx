@@ -15,14 +15,14 @@ export default function Home({ listaDeNoticia }: NewsPropsInterface) {
       <Banner />
       <FastAccess />
       <ProdutividadeFuncionamento />
-      <News listaDeNoticia={listaDeNoticia}/>
+      {/*<News listaDeNoticia={listaDeNoticia}/>*/}
       <SystemsAndTools />
       <OperadoresDoDireito />
       <Temas />
     </>
   )
 }
-
+/*
 export const getServerSideProps: GetServerSideProps = async () => {
   const noticiasDaApi = await (await apinoticia.get('lista')).data;
   const listaDeNoticia = noticiasDaApi.length > 6 ? noticiasDaApi.slice(0, 6) : noticiasDaApi;
@@ -33,3 +33,4 @@ export const getServerSideProps: GetServerSideProps = async () => {
       },
   }
 }
+*/

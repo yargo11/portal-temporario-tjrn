@@ -93,6 +93,12 @@ export function FastAccess() {
                                         Consulta Processual
                                     </a>
                                 </li>
+
+                                <li>
+                                    < a href="/acesso-rapido/vice-presidencia">
+                                        Vice-Presidência
+                                    </a>
+                                </li>
                             </ul>
                         </div>
 
